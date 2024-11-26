@@ -1,0 +1,53 @@
+[I 2024-11-22 23:52:37,024] A new study created in RDB with name: pistonball_hyperparam_search
+[I 2024-11-23 00:16:43,514] Trial 0 finished with value: 1794.0000486373901 and parameters: {'ent_coef': 0.0001840239192660688, 'vf_coef': 9.909038349531297e-05, 'clip_coef': 0.15738303991683844, 'gamma': 0.9633684793482059, 'batch_size': 20, 'lr': 2.001696565194824e-05}. Best is trial 0 with value: 1794.0000486373901.
+[I 2024-11-23 00:40:15,131] Trial 1 finished with value: -210.72931098937988 and parameters: {'ent_coef': 1.7777567066580123e-06, 'vf_coef': 0.0005085137622867866, 'clip_coef': 0.24496243242246366, 'gamma': 0.9612946605655498, 'batch_size': 27, 'lr': 1.83357486293053e-05}. Best is trial 0 with value: 1794.0000486373901.
+/home/hpc/users/sonja.gievska/pistonball/optuna_extended.py:164: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at ../aten/src/ATen/native/ReduceOps.cpp:1823.)
+  advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
+[I 2024-11-23 01:00:45,809] Trial 2 finished with value: -219.05766689777374 and parameters: {'ent_coef': 0.0005144356718648069, 'vf_coef': 0.0018794178995102187, 'clip_coef': 0.31084163699188105, 'gamma': 0.9768483444052302, 'batch_size': 51, 'lr': 4.213956368705971e-05}. Best is trial 0 with value: 1794.0000486373901.
+[I 2024-11-23 01:19:35,961] Trial 3 finished with value: 1885.9999601840973 and parameters: {'ent_coef': 0.06578233577357703, 'vf_coef': 0.002052700180261642, 'clip_coef': 0.13195188322689408, 'gamma': 0.9705909562445203, 'batch_size': 27, 'lr': 2.6239285119827634e-05}. Best is trial 3 with value: 1885.9999601840973.
+[I 2024-11-23 01:35:11,505] Trial 4 finished with value: 1949.9999694824219 and parameters: {'ent_coef': 0.0001568251856865286, 'vf_coef': 0.09730034777587356, 'clip_coef': 0.27074777105547754, 'gamma': 0.9622964360236048, 'batch_size': 30, 'lr': 1.30432450889174e-05}. Best is trial 4 with value: 1949.9999694824219.
+[I 2024-11-23 01:51:57,448] Trial 5 finished with value: 1965.9999797344208 and parameters: {'ent_coef': 0.07003631458608697, 'vf_coef': 0.0034225222522108506, 'clip_coef': 0.2370086015088955, 'gamma': 0.9542279899531557, 'batch_size': 22, 'lr': 0.0001315478349177207}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 02:12:43,243] Trial 6 finished with value: -165.37376499176025 and parameters: {'ent_coef': 0.00028192175916724754, 'vf_coef': 0.0011907428623243559, 'clip_coef': 0.379754116041933, 'gamma': 0.9602331261493988, 'batch_size': 56, 'lr': 0.000929084004797429}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 02:36:13,970] Trial 7 finished with value: -101.74825239181519 and parameters: {'ent_coef': 0.0028528962846107314, 'vf_coef': 0.00027317383406491846, 'clip_coef': 0.3376904529004715, 'gamma': 0.9835943637016268, 'batch_size': 26, 'lr': 1.794342089542791e-05}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 02:36:19,074] Trial 8 pruned. 
+[I 2024-11-23 02:36:24,831] Trial 9 pruned. 
+[I 2024-11-23 02:36:29,763] Trial 10 pruned. 
+[I 2024-11-23 02:56:00,909] Trial 11 finished with value: -217.16418147087097 and parameters: {'ent_coef': 2.517421706289734e-05, 'vf_coef': 0.05292770241961661, 'clip_coef': 0.2101076002452551, 'gamma': 0.9513793463818602, 'batch_size': 37, 'lr': 0.00019966664620632137}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 03:02:42,378] Trial 12 pruned. 
+[I 2024-11-23 03:02:47,462] Trial 13 pruned. 
+[I 2024-11-23 03:24:46,448] Trial 14 finished with value: 1897.9999479055405 and parameters: {'ent_coef': 1.45736117736965e-05, 'vf_coef': 0.07609117959605573, 'clip_coef': 0.19812199284728788, 'gamma': 0.9571076052068747, 'batch_size': 16, 'lr': 8.921519139972615e-05}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 03:25:16,957] Trial 15 pruned. 
+[I 2024-11-23 03:26:01,891] Trial 16 pruned. 
+[I 2024-11-23 03:51:29,479] Trial 17 finished with value: -298.4330520629883 and parameters: {'ent_coef': 0.001063797901801525, 'vf_coef': 1.6624835842296818e-06, 'clip_coef': 0.3446644332673581, 'gamma': 0.9558936192691985, 'batch_size': 19, 'lr': 1.0276151743515419e-05}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 03:52:56,296] Trial 18 pruned. 
+[I 2024-11-23 03:53:01,077] Trial 19 pruned. 
+[I 2024-11-23 03:53:05,863] Trial 20 pruned. 
+[I 2024-11-23 03:53:11,934] Trial 21 pruned. 
+[I 2024-11-23 03:53:18,184] Trial 22 pruned. 
+[I 2024-11-23 03:53:23,604] Trial 23 pruned. 
+[I 2024-11-23 03:54:17,783] Trial 24 pruned. 
+[I 2024-11-23 03:54:23,972] Trial 25 pruned. 
+[I 2024-11-23 03:54:29,503] Trial 26 pruned. 
+[I 2024-11-23 03:54:34,811] Trial 27 pruned. 
+[I 2024-11-23 04:09:11,869] Trial 28 finished with value: 1630.239526629448 and parameters: {'ent_coef': 0.00017124956972029847, 'vf_coef': 0.0024942891243741293, 'clip_coef': 0.261573625091162, 'gamma': 0.9582743465160946, 'batch_size': 25, 'lr': 3.160556397278349e-05}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 04:09:17,440] Trial 29 pruned. 
+[I 2024-11-23 04:10:07,379] Trial 30 pruned. 
+[I 2024-11-23 04:10:12,423] Trial 31 pruned. 
+[I 2024-11-23 04:10:17,491] Trial 32 pruned. 
+[I 2024-11-23 04:10:22,550] Trial 33 pruned. 
+[I 2024-11-23 04:11:33,492] Trial 34 pruned. 
+[I 2024-11-23 04:11:38,594] Trial 35 pruned. 
+[I 2024-11-23 04:13:03,180] Trial 36 pruned. 
+[I 2024-11-23 04:13:08,290] Trial 37 pruned. 
+[I 2024-11-23 04:13:51,781] Trial 38 pruned. 
+[I 2024-11-23 04:13:57,115] Trial 39 pruned. 
+[I 2024-11-23 04:14:02,346] Trial 40 pruned. 
+[I 2024-11-23 04:14:08,057] Trial 41 pruned. 
+[I 2024-11-23 04:21:09,731] Trial 42 pruned. 
+[I 2024-11-23 04:21:15,506] Trial 43 pruned. 
+[I 2024-11-23 04:21:20,758] Trial 44 pruned. 
+[I 2024-11-23 04:21:26,409] Trial 45 pruned. 
+[I 2024-11-23 04:42:12,621] Trial 46 finished with value: 1839.9999301433563 and parameters: {'ent_coef': 3.09442859443369e-05, 'vf_coef': 3.944035633601447e-06, 'clip_coef': 0.2263827510207177, 'gamma': 0.9623551326555967, 'batch_size': 39, 'lr': 0.00018191370716162629}. Best is trial 5 with value: 1965.9999797344208.
+[I 2024-11-23 04:42:17,726] Trial 47 pruned. 
+[I 2024-11-23 04:42:22,534] Trial 48 pruned. 
+[I 2024-11-23 04:43:58,266] Trial 49 pruned. 

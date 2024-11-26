@@ -1,0 +1,5005 @@
+device=device(type='cuda')
+No checkpoint found, starting from scratch
+100%
+ 500/500 [1:19:12<00:00, 11.27s/it]
+Streaming output truncated to the last 5000 lines.
+
+
+-------------------------------------------
+
+Training episode 205
+Episodic Return: 91.5999984741211
+Episode Length: 84
+
+Value Loss: 9.926016807556152
+Policy Loss: 0.4489310681819916
+Old Approx KL: 0.03363194689154625
+Approx KL: 0.02881769835948944
+Clip Fraction: 0.07261905149512347
+Explained Variance: -0.007852673530578613
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 206
+Episodic Return: 89.30000305175781
+Episode Length: 107
+
+Value Loss: 20.573087692260742
+Policy Loss: 4.555917263031006
+Old Approx KL: 0.13273878395557404
+Approx KL: 0.05108657479286194
+Clip Fraction: 0.16427470003772113
+Explained Variance: -0.03414511680603027
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 207
+Episodic Return: 26.985631942749023
+Episode Length: 124
+
+Value Loss: 36.268707275390625
+Policy Loss: 4.630943298339844
+Old Approx KL: 0.283154159784317
+Approx KL: 0.0824480876326561
+Clip Fraction: 0.20634921690419553
+Explained Variance: -0.0007359981536865234
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 208
+Episodic Return: 14.68310260772705
+Episode Length: 124
+
+Value Loss: 23.482656478881836
+Policy Loss: 1.9391975402832031
+Old Approx KL: 0.12509743869304657
+Approx KL: 0.04565581679344177
+Clip Fraction: 0.12288360435160853
+Explained Variance: 0.0003858804702758789
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 209
+Episodic Return: 90.0999984741211
+Episode Length: 99
+
+Value Loss: 163.30157470703125
+Policy Loss: -16.443819046020508
+Old Approx KL: -0.02179122157394886
+Approx KL: 0.06126520782709122
+Clip Fraction: 0.15858586794800228
+Explained Variance: 0.009164631366729736
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 210
+Episodic Return: 92.60000610351562
+Episode Length: 74
+
+Value Loss: 38.435333251953125
+Policy Loss: -5.49447774887085
+Old Approx KL: -0.054218631237745285
+Approx KL: 0.021092820912599564
+Clip Fraction: 0.09000000504155954
+Explained Variance: -0.029282093048095703
+
+-------------------------------------------
+
+Evaluating the agent at episode 210...
+Evaluation Episode 1: Return: 92.09999999999998, Steps: 80
+Evaluation Episode 2: Return: 92.80000000000004, Steps: 73
+Evaluation Episode 3: Return: 91.00000000000007, Steps: 91
+Evaluation Episode 4: Return: 73.79737609329447, Steps: 125
+Evaluation Episode 5: Return: 95.49999999999997, Steps: 46
+Average Return over 5 episodes: 89.03947521865891
+Average Episode Length: 83.0
+Model saved at episode 210 with mean episodic reward: 92.60000610351562
+
+-------------------------------------------
+
+Training episode 211
+Episodic Return: -9.66714096069336
+Episode Length: 124
+
+Value Loss: 291.590576171875
+Policy Loss: 26.307226181030273
+Old Approx KL: 0.23933115601539612
+Approx KL: 0.250505656003952
+Clip Fraction: 0.33955028206701315
+Explained Variance: -0.019229769706726074
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 212
+Episodic Return: 88.90000915527344
+Episode Length: 111
+
+Value Loss: 62.72246551513672
+Policy Loss: -8.587242126464844
+Old Approx KL: -0.03639437258243561
+Approx KL: 0.01611611433327198
+Clip Fraction: 0.058708712257243494
+Explained Variance: -0.04248225688934326
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 213
+Episodic Return: 92.40000915527344
+Episode Length: 76
+
+Value Loss: 59.66290283203125
+Policy Loss: -8.046774864196777
+Old Approx KL: 0.03525344282388687
+Approx KL: 0.01954839937388897
+Clip Fraction: 0.06346154203399634
+Explained Variance: 0.027064025402069092
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 214
+Episodic Return: 95.72111511230469
+Episode Length: 37
+
+Value Loss: 208.59585571289062
+Policy Loss: -20.658864974975586
+Old Approx KL: -0.07094918191432953
+Approx KL: 0.019298631697893143
+Clip Fraction: 0.11495727095275353
+Explained Variance: 0.06854021549224854
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 215
+Episodic Return: 95.59999084472656
+Episode Length: 44
+
+Value Loss: 144.98098754882812
+Policy Loss: 6.333794116973877
+Old Approx KL: 0.060040321201086044
+Approx KL: 0.04225897789001465
+Clip Fraction: 0.12851852451761564
+Explained Variance: 0.008777737617492676
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 216
+Episodic Return: 95.0
+Episode Length: 50
+
+Value Loss: 285.6956481933594
+Policy Loss: -3.8320367336273193
+Old Approx KL: 0.03730577975511551
+Approx KL: 0.2119215726852417
+Clip Fraction: 0.13529412452058465
+Explained Variance: 0.01219111680984497
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 217
+Episodic Return: 94.50631713867188
+Episode Length: 52
+
+Value Loss: 237.28636169433594
+Policy Loss: -7.213749885559082
+Old Approx KL: 0.10746091604232788
+Approx KL: 0.039328303188085556
+Clip Fraction: 0.10771605513851952
+Explained Variance: 0.017668485641479492
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 218
+Episodic Return: 88.30000305175781
+Episode Length: 117
+
+Value Loss: 571.7554321289062
+Policy Loss: 24.388505935668945
+Old Approx KL: 0.26929372549057007
+Approx KL: 0.11162818223237991
+Clip Fraction: 0.24672365998928872
+Explained Variance: -0.013083934783935547
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 219
+Episodic Return: 91.19999694824219
+Episode Length: 88
+
+Value Loss: 158.3622283935547
+Policy Loss: 2.6033341884613037
+Old Approx KL: 0.06714635342359543
+Approx KL: 0.021389618515968323
+Clip Fraction: 0.09259259773211347
+Explained Variance: -0.009795427322387695
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 220
+Episodic Return: 93.30003356933594
+Episode Length: 67
+
+Value Loss: 101.35340881347656
+Policy Loss: -12.605839729309082
+Old Approx KL: -0.017437195405364037
+Approx KL: 0.021649181842803955
+Clip Fraction: 0.057487925730537674
+Explained Variance: 0.01630181074142456
+
+-------------------------------------------
+
+Evaluating the agent at episode 220...
+Evaluation Episode 1: Return: 89.19999999999995, Steps: 109
+Evaluation Episode 2: Return: 55.45252225519288, Steps: 125
+Evaluation Episode 3: Return: 91.79999999999998, Steps: 83
+Evaluation Episode 4: Return: 44.703389830508335, Steps: 125
+Evaluation Episode 5: Return: 90.59999999999995, Steps: 95
+Average Return over 5 episodes: 74.35118241714022
+Average Episode Length: 107.4
+Model saved at episode 220 with mean episodic reward: 93.30003356933594
+
+-------------------------------------------
+
+Training episode 221
+Episodic Return: 41.92858123779297
+Episode Length: 124
+
+Value Loss: 211.00112915039062
+Policy Loss: 18.683080673217773
+Old Approx KL: 0.09802272170782089
+Approx KL: 0.06812918186187744
+Clip Fraction: 0.16044974449785457
+Explained Variance: -0.02427077293395996
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 222
+Episodic Return: -11.596386909484863
+Episode Length: 124
+
+Value Loss: 78.64334869384766
+Policy Loss: 9.953615188598633
+Old Approx KL: 0.1655738800764084
+Approx KL: 0.038793060928583145
+Clip Fraction: 0.10396825955323284
+Explained Variance: -0.12010324001312256
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 223
+Episodic Return: 30.068538665771484
+Episode Length: 124
+
+Value Loss: 10.926985740661621
+Policy Loss: -3.3708114624023438
+Old Approx KL: 0.0687519833445549
+Approx KL: 0.02178393304347992
+Clip Fraction: 0.04867725136379401
+Explained Variance: -0.09261250495910645
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 224
+Episodic Return: 40.08747482299805
+Episode Length: 124
+
+Value Loss: 22.458410263061523
+Policy Loss: 2.1450705528259277
+Old Approx KL: 0.10192221403121948
+Approx KL: 0.022377002984285355
+Clip Fraction: 0.06005291361361742
+Explained Variance: -0.07694947719573975
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 225
+Episodic Return: 13.205780029296875
+Episode Length: 124
+
+Value Loss: 6.709173679351807
+Policy Loss: -0.785089910030365
+Old Approx KL: 0.035117629915475845
+Approx KL: 0.027648091316223145
+Clip Fraction: 0.036904764272982164
+Explained Variance: -0.06814181804656982
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 226
+Episodic Return: -12.500017166137695
+Episode Length: 124
+
+Value Loss: 22.481525421142578
+Policy Loss: 4.873589515686035
+Old Approx KL: 0.2913241982460022
+Approx KL: 0.0979238748550415
+Clip Fraction: 0.15806879106140326
+Explained Variance: -0.057952165603637695
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 227
+Episodic Return: 49.81452560424805
+Episode Length: 124
+
+Value Loss: 100.64803314208984
+Policy Loss: -13.847406387329102
+Old Approx KL: 0.03284457325935364
+Approx KL: 0.03252112492918968
+Clip Fraction: 0.0961640268741619
+Explained Variance: -0.022342681884765625
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 228
+Episodic Return: 58.86567306518555
+Episode Length: 124
+
+Value Loss: 7.162826061248779
+Policy Loss: -0.06633887439966202
+Old Approx KL: -0.024012630805373192
+Approx KL: 0.038225166499614716
+Clip Fraction: 0.03677248897119647
+Explained Variance: -0.021616578102111816
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 229
+Episodic Return: 32.145530700683594
+Episode Length: 124
+
+Value Loss: 20.558364868164062
+Policy Loss: 1.0947182178497314
+Old Approx KL: 0.05011630803346634
+Approx KL: 0.01353311538696289
+Clip Fraction: 0.1055555608980949
+Explained Variance: -0.006806731224060059
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 230
+Episodic Return: 75.40894317626953
+Episode Length: 124
+
+Value Loss: 34.26057052612305
+Policy Loss: -8.128009796142578
+Old Approx KL: -0.12899117171764374
+Approx KL: 0.029163995757699013
+Clip Fraction: 0.12248677906713315
+Explained Variance: -0.004998564720153809
+
+-------------------------------------------
+
+Evaluating the agent at episode 230...
+Evaluation Episode 1: Return: 33.18081991215215, Steps: 125
+Evaluation Episode 2: Return: -5.717893217893209, Steps: 125
+Evaluation Episode 3: Return: 87.60000000000012, Steps: 125
+Evaluation Episode 4: Return: 90.19999999999996, Steps: 99
+Evaluation Episode 5: Return: 92.99999999999997, Steps: 71
+Average Return over 5 episodes: 59.65258533885181
+Average Episode Length: 109.0
+Model saved at episode 230 with mean episodic reward: 75.40894317626953
+
+-------------------------------------------
+
+Training episode 231
+Episodic Return: 90.00001525878906
+Episode Length: 100
+
+Value Loss: 14.849662780761719
+Policy Loss: 0.6669968962669373
+Old Approx KL: 0.03427659720182419
+Approx KL: 0.022567767649888992
+Clip Fraction: 0.1075163453123441
+Explained Variance: -0.05384862422943115
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 232
+Episodic Return: 61.828460693359375
+Episode Length: 124
+
+Value Loss: 34.66340255737305
+Policy Loss: 5.114010810852051
+Old Approx KL: 0.08713525533676147
+Approx KL: 0.059178926050662994
+Clip Fraction: 0.1817460415943984
+Explained Variance: 0.0036149024963378906
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 233
+Episodic Return: 91.60000610351562
+Episode Length: 84
+
+Value Loss: 75.80824279785156
+Policy Loss: -10.921808242797852
+Old Approx KL: 0.01874009147286415
+Approx KL: 0.08824644237756729
+Clip Fraction: 0.1484127060643264
+Explained Variance: -0.026248574256896973
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 234
+Episodic Return: 92.30001831054688
+Episode Length: 77
+
+Value Loss: 89.11579895019531
+Policy Loss: 2.8174922466278076
+Old Approx KL: 0.13693001866340637
+Approx KL: 0.06542007625102997
+Clip Fraction: 0.23108975496143103
+Explained Variance: -0.01759171485900879
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 235
+Episodic Return: 68.6614990234375
+Episode Length: 124
+
+Value Loss: 31.666275024414062
+Policy Loss: 4.593657970428467
+Old Approx KL: 0.18974466621875763
+Approx KL: 0.05732068046927452
+Clip Fraction: 0.09907407944815026
+Explained Variance: -0.007198333740234375
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 236
+Episodic Return: 46.19573211669922
+Episode Length: 124
+
+Value Loss: 25.697589874267578
+Policy Loss: 3.1021926403045654
+Old Approx KL: 0.07056369632482529
+Approx KL: 0.05038192495703697
+Clip Fraction: 0.08624339100742151
+Explained Variance: -0.043118834495544434
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 237
+Episodic Return: 90.00001525878906
+Episode Length: 100
+
+Value Loss: 59.544979095458984
+Policy Loss: -10.787185668945312
+Old Approx KL: 0.03355426713824272
+Approx KL: 0.0386529266834259
+Clip Fraction: 0.1009803978981925
+Explained Variance: -0.03731715679168701
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 238
+Episodic Return: 92.0
+Episode Length: 80
+
+Value Loss: 15.039212226867676
+Policy Loss: 2.1574673652648926
+Old Approx KL: 0.00754521181806922
+Approx KL: 0.06674674153327942
+Clip Fraction: 0.11831276390103647
+Explained Variance: -0.007735729217529297
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 239
+Episodic Return: 94.30001831054688
+Episode Length: 57
+
+Value Loss: 63.40266418457031
+Policy Loss: -9.523626327514648
+Old Approx KL: -0.0005594283575192094
+Approx KL: 0.07689116895198822
+Clip Fraction: 0.10233918629717409
+Explained Variance: -0.10616457462310791
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 240
+Episodic Return: 93.29997253417969
+Episode Length: 67
+
+Value Loss: 20.453662872314453
+Policy Loss: 2.174584150314331
+Old Approx KL: 0.25656598806381226
+Approx KL: 0.06375963985919952
+Clip Fraction: 0.098309183979164
+Explained Variance: -0.05667531490325928
+
+-------------------------------------------
+
+Evaluating the agent at episode 240...
+Evaluation Episode 1: Return: 95.30000000000001, Steps: 48
+Evaluation Episode 2: Return: 94.89999999999999, Steps: 52
+Evaluation Episode 3: Return: 92.29999999999997, Steps: 78
+Evaluation Episode 4: Return: 94.5, Steps: 56
+Evaluation Episode 5: Return: 92.10000000000005, Steps: 80
+Average Return over 5 episodes: 93.82000000000001
+Average Episode Length: 62.8
+Model saved at episode 240 with mean episodic reward: 93.29997253417969
+
+-------------------------------------------
+
+Training episode 241
+Episodic Return: 94.40000915527344
+Episode Length: 56
+
+Value Loss: 82.70344543457031
+Policy Loss: -10.095324516296387
+Old Approx KL: -0.05469054728746414
+Approx KL: 0.05843234062194824
+Clip Fraction: 0.13318714123676745
+Explained Variance: -0.0019470453262329102
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 242
+Episodic Return: 94.40000915527344
+Episode Length: 56
+
+Value Loss: 28.074316024780273
+Policy Loss: 0.26637133955955505
+Old Approx KL: 0.10287787020206451
+Approx KL: 0.06527676433324814
+Clip Fraction: 0.09897661339818385
+Explained Variance: -0.04905819892883301
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 243
+Episodic Return: 94.59999084472656
+Episode Length: 54
+
+Value Loss: 19.288530349731445
+Policy Loss: -3.3248379230499268
+Old Approx KL: 0.00859546847641468
+Approx KL: 0.01826072297990322
+Clip Fraction: 0.07067901665275847
+Explained Variance: -0.07564198970794678
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 244
+Episodic Return: 91.69999694824219
+Episode Length: 83
+
+Value Loss: 128.9589080810547
+Policy Loss: 8.800772666931152
+Old Approx KL: 0.2253529131412506
+Approx KL: 0.07760351896286011
+Clip Fraction: 0.21636905867074216
+Explained Variance: 0.0012055635452270508
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 245
+Episodic Return: 95.3000259399414
+Episode Length: 47
+
+Value Loss: 57.49532699584961
+Policy Loss: -7.043057441711426
+Old Approx KL: -0.017156679183244705
+Approx KL: 0.03034248948097229
+Clip Fraction: 0.10069444911399235
+Explained Variance: -0.002786874771118164
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 246
+Episodic Return: 93.41831970214844
+Episode Length: 63
+
+Value Loss: 39.800331115722656
+Policy Loss: 2.9852094650268555
+Old Approx KL: 0.06957273930311203
+Approx KL: 0.023030703887343407
+Clip Fraction: 0.0899470950521174
+Explained Variance: -0.020920276641845703
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 247
+Episodic Return: 92.99999237060547
+Episode Length: 70
+
+Value Loss: 19.607776641845703
+Policy Loss: -2.453227996826172
+Old Approx KL: -0.03820084035396576
+Approx KL: 0.10106102377176285
+Clip Fraction: 0.07314815191138122
+Explained Variance: 0.03799992799758911
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 248
+Episodic Return: 92.90000915527344
+Episode Length: 71
+
+Value Loss: 66.51067352294922
+Policy Loss: 4.1233344078063965
+Old Approx KL: 0.05386807397007942
+Approx KL: 0.051967717707157135
+Clip Fraction: 0.1325231545035624
+Explained Variance: 0.02129650115966797
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 249
+Episodic Return: 95.0
+Episode Length: 50
+
+Value Loss: 53.62710189819336
+Policy Loss: -5.32602071762085
+Old Approx KL: -0.010292603634297848
+Approx KL: 0.01866653375327587
+Clip Fraction: 0.10326797975336804
+Explained Variance: 0.0150185227394104
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 250
+Episodic Return: 94.5
+Episode Length: 55
+
+Value Loss: 38.097511291503906
+Policy Loss: -1.462478518486023
+Old Approx KL: 0.08335540443658829
+Approx KL: 0.04705088213086128
+Clip Fraction: 0.11228070790438276
+Explained Variance: 0.06278097629547119
+
+-------------------------------------------
+
+Evaluating the agent at episode 250...
+Evaluation Episode 1: Return: 94.30000000000003, Steps: 58
+Evaluation Episode 2: Return: 95.99999999999997, Steps: 41
+Evaluation Episode 3: Return: 96.4, Steps: 37
+Evaluation Episode 4: Return: 13.137393767705298, Steps: 125
+Evaluation Episode 5: Return: 93.89999999999999, Steps: 62
+Average Return over 5 episodes: 78.74747875354106
+Average Episode Length: 64.6
+Model saved at episode 250 with mean episodic reward: 94.5
+
+-------------------------------------------
+
+Training episode 251
+Episodic Return: 91.0999984741211
+Episode Length: 89
+
+Value Loss: 249.9132843017578
+Policy Loss: 12.753120422363281
+Old Approx KL: 20.2670841217041
+Approx KL: 19.9315185546875
+Clip Fraction: 0.7147222567349673
+Explained Variance: 0.003207683563232422
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 252
+Episodic Return: -4.807685375213623
+Episode Length: 124
+
+Value Loss: 302.7596740722656
+Policy Loss: 24.357938766479492
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0018518519632163503
+Explained Variance: -0.0947103500366211
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 253
+Episodic Return: 7.410803318023682
+Episode Length: 124
+
+Value Loss: 558.5480346679688
+Policy Loss: -31.852453231811523
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0023809525051287244
+Explained Variance: -0.07538974285125732
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 254
+Episodic Return: 13.901135444641113
+Episode Length: 124
+
+Value Loss: 383.455810546875
+Policy Loss: 25.551420211791992
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0023809525051287244
+Explained Variance: -0.09025835990905762
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 255
+Episodic Return: 10.686297416687012
+Episode Length: 124
+
+Value Loss: 125.19111633300781
+Policy Loss: -13.357989311218262
+Old Approx KL: -0.007784342858940363
+Approx KL: 0.0006386637687683105
+Clip Fraction: 0.0006613756958690901
+Explained Variance: -0.1383800506591797
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 256
+Episodic Return: -11.10140609741211
+Episode Length: 124
+
+Value Loss: 5.63430118560791
+Policy Loss: -2.4305360317230225
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0031746033253887344
+Explained Variance: -0.21309137344360352
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 257
+Episodic Return: -16.702930450439453
+Episode Length: 124
+
+Value Loss: 7.866380214691162
+Policy Loss: 4.0699663162231445
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.24062108993530273
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 258
+Episodic Return: -13.625192642211914
+Episode Length: 124
+
+Value Loss: 28.234373092651367
+Policy Loss: -6.507861614227295
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0007936508350429081
+Explained Variance: -0.13448846340179443
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 259
+Episodic Return: -14.2442045211792
+Episode Length: 124
+
+Value Loss: 14.906050682067871
+Policy Loss: 5.188741683959961
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.12501728534698486
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 260
+Episodic Return: 10.620519638061523
+Episode Length: 124
+
+Value Loss: 122.9775390625
+Policy Loss: -14.846884727478027
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0026455027834763603
+Explained Variance: -0.02609407901763916
+
+-------------------------------------------
+
+Evaluating the agent at episode 260...
+Evaluation Episode 1: Return: -17.005813953488346, Steps: 125
+Evaluation Episode 2: Return: -12.357142857142831, Steps: 125
+Evaluation Episode 3: Return: -9.558823529411749, Steps: 125
+Evaluation Episode 4: Return: -12.639275766016684, Steps: 125
+Evaluation Episode 5: Return: -3.5256410256410144, Steps: 125
+Average Return over 5 episodes: -11.017339426340126
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 261
+Episodic Return: -13.07555103302002
+Episode Length: 124
+
+Value Loss: 200.9163055419922
+Policy Loss: 19.71693229675293
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.00039682541752145405
+Explained Variance: -0.004864692687988281
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 262
+Episodic Return: -13.398219108581543
+Episode Length: 124
+
+Value Loss: 357.97705078125
+Policy Loss: -25.712772369384766
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.00396825417521454
+Explained Variance: -0.029024362564086914
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 263
+Episodic Return: -7.464022636413574
+Episode Length: 124
+
+Value Loss: 353.0182189941406
+Policy Loss: 26.221662521362305
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.005423280720909436
+Explained Variance: -0.003901958465576172
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 264
+Episodic Return: -17.7631893157959
+Episode Length: 124
+
+Value Loss: 213.7401885986328
+Policy Loss: -20.355148315429688
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.000132275139173818
+Explained Variance: -0.03644669055938721
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 265
+Episodic Return: -11.22882080078125
+Episode Length: 124
+
+Value Loss: 143.27439880371094
+Policy Loss: 16.5705509185791
+Old Approx KL: 0.02622385136783123
+Approx KL: 0.005817091558128595
+Clip Fraction: 0.0035714287429101884
+Explained Variance: -0.013341188430786133
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 266
+Episodic Return: -10.957228660583496
+Episode Length: 124
+
+Value Loss: 278.9710998535156
+Policy Loss: -23.666120529174805
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.001984127072824372
+Explained Variance: -0.025341391563415527
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 267
+Episodic Return: 9.276456832885742
+Episode Length: 124
+
+Value Loss: 142.65240478515625
+Policy Loss: 15.931955337524414
+Old Approx KL: -0.017575815320014954
+Approx KL: 0.003485229564830661
+Clip Fraction: 0.000925925959433828
+Explained Variance: -0.021744370460510254
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 268
+Episodic Return: -10.814611434936523
+Episode Length: 124
+
+Value Loss: 186.81976318359375
+Policy Loss: -18.923940658569336
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.001058201113390544
+Explained Variance: -0.03003096580505371
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 269
+Episodic Return: -17.925256729125977
+Episode Length: 124
+
+Value Loss: 147.78176879882812
+Policy Loss: 17.353683471679688
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.00039682541752145405
+Explained Variance: -0.013412117958068848
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 270
+Episodic Return: -16.357595443725586
+Episode Length: 124
+
+Value Loss: 226.57669067382812
+Policy Loss: -21.190032958984375
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.001455026530911998
+Explained Variance: -0.03268170356750488
+
+-------------------------------------------
+
+Evaluating the agent at episode 270...
+Evaluation Episode 1: Return: -3.6634756995581625, Steps: 125
+Evaluation Episode 2: Return: -4.95810055865921, Steps: 125
+Evaluation Episode 3: Return: 0.5434782608695939, Steps: 125
+Evaluation Episode 4: Return: -18.86094674556214, Steps: 125
+Evaluation Episode 5: Return: 18.2692307692306, Steps: 125
+Average Return over 5 episodes: -1.7339627947358636
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 271
+Episodic Return: -15.953265190124512
+Episode Length: 124
+
+Value Loss: 125.16481018066406
+Policy Loss: 15.340211868286133
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.00198412708760727
+Explained Variance: -0.012197136878967285
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 272
+Episodic Return: -15.290037155151367
+Episode Length: 124
+
+Value Loss: 225.60269165039062
+Policy Loss: -21.08889389038086
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.000529100556695272
+Explained Variance: -0.02954733371734619
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 273
+Episodic Return: 32.27189636230469
+Episode Length: 124
+
+Value Loss: 137.4431610107422
+Policy Loss: 16.33022117614746
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0007936508350429081
+Explained Variance: 0.002903580665588379
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 274
+Episodic Return: -10.338621139526367
+Episode Length: 124
+
+Value Loss: 172.6611328125
+Policy Loss: -18.164127349853516
+Old Approx KL: -0.005355507135391235
+Approx KL: 0.00016434788994956762
+Clip Fraction: 0.0
+Explained Variance: -0.03253591060638428
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 275
+Episodic Return: 6.202828407287598
+Episode Length: 124
+
+Value Loss: 115.8563003540039
+Policy Loss: 14.609461784362793
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.000264550278347636
+Explained Variance: 0.007912695407867432
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 276
+Episodic Return: -11.152700424194336
+Episode Length: 124
+
+Value Loss: 205.31211853027344
+Policy Loss: -19.637165069580078
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.000264550278347636
+Explained Variance: -0.03328204154968262
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 277
+Episodic Return: -16.82839012145996
+Episode Length: 124
+
+Value Loss: 144.69778442382812
+Policy Loss: 16.77716636657715
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0006613756958690901
+Explained Variance: -0.057013869285583496
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 278
+Episodic Return: -7.342401027679443
+Episode Length: 124
+
+Value Loss: 291.0589599609375
+Policy Loss: -23.01609992980957
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.00039682541752145405
+Explained Variance: -0.02335202693939209
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 279
+Episodic Return: -16.102331161499023
+Episode Length: 124
+
+Value Loss: 192.28335571289062
+Policy Loss: 19.14629554748535
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0007936508350429081
+Explained Variance: -0.04512929916381836
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 280
+Episodic Return: 3.111790895462036
+Episode Length: 124
+
+Value Loss: 106.97222137451172
+Policy Loss: -14.633061408996582
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: 0.005264401435852051
+
+-------------------------------------------
+
+Evaluating the agent at episode 280...
+Evaluation Episode 1: Return: -4.53910614525139, Steps: 125
+Evaluation Episode 2: Return: -17.31049562682214, Steps: 125
+Evaluation Episode 3: Return: -14.842606149341105, Steps: 125
+Evaluation Episode 4: Return: -12.778940027893974, Steps: 125
+Evaluation Episode 5: Return: -14.341359773371071, Steps: 125
+Average Return over 5 episodes: -12.762501544535937
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 281
+Episodic Return: -18.235328674316406
+Episode Length: 124
+
+Value Loss: 166.451904296875
+Policy Loss: 17.97072410583496
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.03641808032989502
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 282
+Episodic Return: -12.778951644897461
+Episode Length: 124
+
+Value Loss: 324.3472595214844
+Policy Loss: -25.453012466430664
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.027361750602722168
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 283
+Episodic Return: 11.370010375976562
+Episode Length: 124
+
+Value Loss: 133.01109313964844
+Policy Loss: 16.408414840698242
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: 0.022083759307861328
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 284
+Episodic Return: -15.749658584594727
+Episode Length: 124
+
+Value Loss: 187.02796936035156
+Policy Loss: -18.64082145690918
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.04056370258331299
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 285
+Episodic Return: -14.755663871765137
+Episode Length: 124
+
+Value Loss: 241.13247680664062
+Policy Loss: 21.827533721923828
+Old Approx KL: 1.9073486612342094e-07
+Approx KL: -5.9604645663569045e-09
+Clip Fraction: 0.000264550278347636
+Explained Variance: -0.05417442321777344
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 286
+Episodic Return: -13.802477836608887
+Episode Length: 124
+
+Value Loss: 151.44444274902344
+Policy Loss: -17.55051612854004
+Old Approx KL: -4.7683716530855236e-08
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.037251830101013184
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 287
+Episodic Return: -5.0547380447387695
+Episode Length: 124
+
+Value Loss: 236.95860290527344
+Policy Loss: 21.359874725341797
+Old Approx KL: 3.337860050578456e-07
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.004333972930908203
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 288
+Episodic Return: -19.8134765625
+Episode Length: 124
+
+Value Loss: 114.12310028076172
+Policy Loss: -14.983023643493652
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.06073105335235596
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 289
+Episodic Return: -10.237561225891113
+Episode Length: 124
+
+Value Loss: 136.8000946044922
+Policy Loss: 16.52890968322754
+Old Approx KL: 1.4305115314527939e-07
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.013406634330749512
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 290
+Episodic Return: -9.722224235534668
+Episode Length: 124
+
+Value Loss: 216.56895446777344
+Policy Loss: -20.698261260986328
+Old Approx KL: -1.9073486612342094e-07
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.021918296813964844
+
+-------------------------------------------
+
+Evaluating the agent at episode 290...
+Evaluation Episode 1: Return: -12.072649572649548, Steps: 125
+Evaluation Episode 2: Return: -10.674157303370766, Steps: 125
+Evaluation Episode 3: Return: -15.462962962962925, Steps: 125
+Evaluation Episode 4: Return: -17.46350364963502, Steps: 125
+Evaluation Episode 5: Return: -21.43939393939399, Steps: 125
+Average Return over 5 episodes: -15.422533485602452
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 291
+Episodic Return: -21.439441680908203
+Episode Length: 124
+
+Value Loss: 124.00505828857422
+Policy Loss: 15.760278701782227
+Old Approx KL: 0.0003285885031800717
+Approx KL: 7.688999517085904e-07
+Clip Fraction: 0.0
+Explained Variance: -0.027160286903381348
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 292
+Episodic Return: -2.170660972595215
+Episode Length: 124
+
+Value Loss: 168.4149932861328
+Policy Loss: -18.123716354370117
+Old Approx KL: -0.00026803018408827484
+Approx KL: 2.801418474973616e-07
+Clip Fraction: 0.0
+Explained Variance: -0.0018967390060424805
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 293
+Episodic Return: -8.642851829528809
+Episode Length: 124
+
+Value Loss: 97.36212158203125
+Policy Loss: 13.37914752960205
+Old Approx KL: 9.536743306171047e-08
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.0273740291595459
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 294
+Episodic Return: -4.51182746887207
+Episode Length: 124
+
+Value Loss: 200.0272216796875
+Policy Loss: -19.948362350463867
+Old Approx KL: 4.7683716530855236e-08
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.022389650344848633
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 295
+Episodic Return: -11.363643646240234
+Episode Length: 124
+
+Value Loss: 148.96835327148438
+Policy Loss: 17.07403564453125
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.02814459800720215
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 296
+Episodic Return: -11.30240249633789
+Episode Length: 124
+
+Value Loss: 277.2488708496094
+Policy Loss: -23.80681610107422
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.026518702507019043
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 297
+Episodic Return: 27.128108978271484
+Episode Length: 124
+
+Value Loss: 120.1314468383789
+Policy Loss: 14.388177871704102
+Old Approx KL: 1.4305115314527939e-07
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: 0.06253987550735474
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 298
+Episodic Return: -5.735287666320801
+Episode Length: 124
+
+Value Loss: 82.77978515625
+Policy Loss: -13.1453857421875
+Old Approx KL: 0.0
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.09349989891052246
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 299
+Episodic Return: 1.2882874011993408
+Episode Length: 124
+
+Value Loss: 119.57120513916016
+Policy Loss: 15.653607368469238
+Old Approx KL: 4.7683716530855236e-08
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.022736430168151855
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 300
+Episodic Return: -4.572317600250244
+Episode Length: 124
+
+Value Loss: 174.4103240966797
+Policy Loss: -18.32716941833496
+Old Approx KL: -1.1920928955078125e-06
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.03321051597595215
+
+-------------------------------------------
+
+Evaluating the agent at episode 300...
+Evaluation Episode 1: Return: -17.46350364963502, Steps: 125
+Evaluation Episode 2: Return: -13.517441860465086, Steps: 125
+Evaluation Episode 3: Return: -18.391016200294548, Steps: 125
+Evaluation Episode 4: Return: -17.605105105105093, Steps: 125
+Evaluation Episode 5: Return: -10.621387283236972, Steps: 125
+Average Return over 5 episodes: -15.519690819747344
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 301
+Episodic Return: -13.767621040344238
+Episode Length: 124
+
+Value Loss: 119.79328918457031
+Policy Loss: 9.224281311035156
+Old Approx KL: 12.774040222167969
+Approx KL: 11.77404499053955
+Clip Fraction: 0.5660053078853895
+Explained Variance: -0.10096442699432373
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 302
+Episodic Return: -7.604887962341309
+Episode Length: 124
+
+Value Loss: 11.5316801071167
+Policy Loss: 5.027192115783691
+Old Approx KL: -0.002176308771595359
+Approx KL: 2.682209014892578e-06
+Clip Fraction: 0.19298942900070595
+Explained Variance: -0.10945117473602295
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 303
+Episodic Return: -14.775979995727539
+Episode Length: 124
+
+Value Loss: 1.3982203006744385
+Policy Loss: -1.7595481872558594
+Old Approx KL: -3.52859501617786e-06
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.13087153434753418
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 304
+Episodic Return: 39.667545318603516
+Episode Length: 124
+
+Value Loss: 38.468509674072266
+Policy Loss: -0.04476876184344292
+Old Approx KL: -8.606911251263227e-06
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.0092390775680542
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 305
+Episodic Return: -6.346146583557129
+Episode Length: 124
+
+Value Loss: 5.540585041046143
+Policy Loss: 3.1176114082336426
+Old Approx KL: 0.00010368823859607801
+Approx KL: 5.06639494801675e-08
+Clip Fraction: 0.0
+Explained Variance: -0.06802654266357422
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 306
+Episodic Return: -20.783172607421875
+Episode Length: 124
+
+Value Loss: 60.182769775390625
+Policy Loss: -11.155784606933594
+Old Approx KL: -0.00010352134995628148
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: -0.03319382667541504
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 307
+Episodic Return: 99.19999694824219
+Episode Length: 8
+
+Value Loss: 1210.2913818359375
+Policy Loss: -43.59138870239258
+Old Approx KL: -1.1324882507324219e-06
+Approx KL: 0.0
+Clip Fraction: 0.0
+Explained Variance: 0.026204288005828857
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 308
+Episodic Return: -15.64373779296875
+Episode Length: 124
+
+Value Loss: 240.58633422851562
+Policy Loss: 12.83374309539795
+Old Approx KL: 6.661454677581787
+Approx KL: 5.6628899574279785
+Clip Fraction: 0.07089947394671894
+Explained Variance: -0.035962462425231934
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 309
+Episodic Return: -11.896692276000977
+Episode Length: 124
+
+Value Loss: 74.9195556640625
+Policy Loss: 13.244400024414062
+Old Approx KL: 0.3417634665966034
+Approx KL: 0.37867552042007446
+Clip Fraction: 0.12843916062561292
+Explained Variance: -0.05842995643615723
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 310
+Episodic Return: -11.613744735717773
+Episode Length: 124
+
+Value Loss: 21.12572479248047
+Policy Loss: -6.091500282287598
+Old Approx KL: 0.1530231088399887
+Approx KL: 0.10209037363529205
+Clip Fraction: 0.15873016829469375
+Explained Variance: -0.08458161354064941
+
+-------------------------------------------
+
+Evaluating the agent at episode 310...
+Evaluation Episode 1: Return: -11.938202247190986, Steps: 125
+Evaluation Episode 2: Return: -4.48813056379821, Steps: 125
+Evaluation Episode 3: Return: -16.20919881305635, Steps: 125
+Evaluation Episode 4: Return: 2.3044692737430412, Steps: 125
+Evaluation Episode 5: Return: 28.502949852507257, Steps: 125
+Average Return over 5 episodes: -0.36562249955904846
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 311
+Episodic Return: -18.86098861694336
+Episode Length: 124
+
+Value Loss: 48.20085906982422
+Policy Loss: 9.45422649383545
+Old Approx KL: -0.008087999187409878
+Approx KL: 0.00675944983959198
+Clip Fraction: 0.06785714663269501
+Explained Variance: -0.023114562034606934
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 312
+Episodic Return: -16.102331161499023
+Episode Length: 124
+
+Value Loss: 71.99414825439453
+Policy Loss: -11.046257019042969
+Old Approx KL: -0.039813365787267685
+Approx KL: 0.10811114311218262
+Clip Fraction: 0.21494710285748755
+Explained Variance: -0.09725165367126465
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 313
+Episodic Return: 8.785672187805176
+Episode Length: 124
+
+Value Loss: 27.222457885742188
+Policy Loss: 0.678365170955658
+Old Approx KL: 0.03435710072517395
+Approx KL: 0.010332179255783558
+Clip Fraction: 0.04695767451018568
+Explained Variance: -0.16438281536102295
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 314
+Episodic Return: -14.775979995727539
+Episode Length: 124
+
+Value Loss: 17.90254020690918
+Policy Loss: -6.1573944091796875
+Old Approx KL: -0.02383972518146038
+Approx KL: 0.024032920598983765
+Clip Fraction: 0.06970899859591136
+Explained Variance: -0.07742416858673096
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 315
+Episodic Return: -12.361120223999023
+Episode Length: 124
+
+Value Loss: 41.615882873535156
+Policy Loss: 22.080318450927734
+Old Approx KL: 0.2817532420158386
+Approx KL: 1.6048784255981445
+Clip Fraction: 0.1197090009523053
+Explained Variance: -0.07326412200927734
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 316
+Episodic Return: -18.70384979248047
+Episode Length: 124
+
+Value Loss: 4.3360795974731445
+Policy Loss: 1.443109393119812
+Old Approx KL: 0.7845065593719482
+Approx KL: 0.7630351781845093
+Clip Fraction: 0.3289682709035419
+Explained Variance: -0.06922721862792969
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 317
+Episodic Return: -16.552125930786133
+Episode Length: 124
+
+Value Loss: 21.78508949279785
+Policy Loss: -6.553502082824707
+Old Approx KL: 0.025982249528169632
+Approx KL: 0.006728366017341614
+Clip Fraction: 0.0068783072074727405
+Explained Variance: -0.02496039867401123
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 318
+Episodic Return: -14.921671867370605
+Episode Length: 124
+
+Value Loss: 8.910964012145996
+Policy Loss: 4.548903942108154
+Old Approx KL: 0.020081067457795143
+Approx KL: 0.015443066135048866
+Clip Fraction: 0.000264550278347636
+Explained Variance: -0.06610751152038574
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 319
+Episodic Return: -17.61699676513672
+Episode Length: 124
+
+Value Loss: 9.516708374023438
+Policy Loss: -4.6326117515563965
+Old Approx KL: -0.022089296951889992
+Approx KL: 0.003972578328102827
+Clip Fraction: 0.0006613756958690901
+Explained Variance: -0.05102097988128662
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 320
+Episodic Return: -4.678766250610352
+Episode Length: 124
+
+Value Loss: 13.0894193649292
+Policy Loss: 5.235558032989502
+Old Approx KL: -0.00227605109103024
+Approx KL: 0.006854689214378595
+Clip Fraction: 0.0068783072222556385
+Explained Variance: -0.0009340047836303711
+
+-------------------------------------------
+
+Evaluating the agent at episode 320...
+Evaluation Episode 1: Return: -10.133136094674532, Steps: 125
+Evaluation Episode 2: Return: -17.771084337349393, Steps: 125
+Evaluation Episode 3: Return: -4.579207920792073, Steps: 125
+Evaluation Episode 4: Return: 3.7929745889387214, Steps: 125
+Evaluation Episode 5: Return: 27.63986013985999, Steps: 125
+Average Return over 5 episodes: -0.210118724803457
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 321
+Episodic Return: -13.200292587280273
+Episode Length: 124
+
+Value Loss: 11.24129867553711
+Policy Loss: -5.426168441772461
+Old Approx KL: -0.04544719681143761
+Approx KL: 0.07072225213050842
+Clip Fraction: 0.11335979402065277
+Explained Variance: -0.02987349033355713
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 322
+Episodic Return: 3.7393040657043457
+Episode Length: 124
+
+Value Loss: 55.87465286254883
+Policy Loss: 6.2402496337890625
+Old Approx KL: 0.6362150311470032
+Approx KL: 0.1695721447467804
+Clip Fraction: 0.053439155886215825
+Explained Variance: 0.0016859769821166992
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 323
+Episodic Return: -14.775982856750488
+Episode Length: 124
+
+Value Loss: 3.3320839405059814
+Policy Loss: 0.5675045847892761
+Old Approx KL: 0.12007879465818405
+Approx KL: 0.047196269035339355
+Clip Fraction: 0.0824074118826834
+Explained Variance: -0.07449531555175781
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 324
+Episodic Return: 14.759475708007812
+Episode Length: 124
+
+Value Loss: 24.63001823425293
+Policy Loss: -6.777467250823975
+Old Approx KL: -0.014157906174659729
+Approx KL: 0.014054859057068825
+Clip Fraction: 0.04431217200758438
+Explained Variance: -0.017000555992126465
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 325
+Episodic Return: 19.190195083618164
+Episode Length: 124
+
+Value Loss: 58.7194938659668
+Policy Loss: 5.540507793426514
+Old Approx KL: -0.0076095969416201115
+Approx KL: 0.042184602469205856
+Clip Fraction: 0.0832010627029434
+Explained Variance: 0.007718861103057861
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 326
+Episodic Return: 2.9191625118255615
+Episode Length: 124
+
+Value Loss: 3.0899181365966797
+Policy Loss: -2.8467113971710205
+Old Approx KL: -0.10573890060186386
+Approx KL: 0.015375062823295593
+Clip Fraction: 0.025793652434552474
+Explained Variance: -0.20314931869506836
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 327
+Episodic Return: -4.7627716064453125
+Episode Length: 124
+
+Value Loss: 9.308087348937988
+Policy Loss: 4.165496349334717
+Old Approx KL: 0.036801744252443314
+Approx KL: 0.053736187517642975
+Clip Fraction: 0.13888889539336402
+Explained Variance: -0.10304999351501465
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 328
+Episodic Return: 75.42845153808594
+Episode Length: 124
+
+Value Loss: 86.41471099853516
+Policy Loss: -13.956006050109863
+Old Approx KL: -0.11741669476032257
+Approx KL: 0.058685220777988434
+Clip Fraction: 0.12500000724362004
+Explained Variance: -5.3048133850097656e-05
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 329
+Episodic Return: 18.77752113342285
+Episode Length: 124
+
+Value Loss: 40.85191345214844
+Policy Loss: 3.425537109375
+Old Approx KL: 0.162495419383049
+Approx KL: 0.03757685795426369
+Clip Fraction: 0.09285714835046775
+Explained Variance: -0.0017377138137817383
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 330
+Episodic Return: 36.970481872558594
+Episode Length: 124
+
+Value Loss: 21.925996780395508
+Policy Loss: -4.437835216522217
+Old Approx KL: 0.05965282395482063
+Approx KL: 0.043900229036808014
+Clip Fraction: 0.09417989915089002
+Explained Variance: 0.004751145839691162
+
+-------------------------------------------
+
+Evaluating the agent at episode 330...
+Evaluation Episode 1: Return: 93.10000000000002, Steps: 70
+Evaluation Episode 2: Return: 89.89999999999998, Steps: 102
+Evaluation Episode 3: Return: 95.10000000000002, Steps: 50
+Evaluation Episode 4: Return: 91.19999999999997, Steps: 89
+Evaluation Episode 5: Return: 91.60000000000002, Steps: 85
+Average Return over 5 episodes: 92.18
+Average Episode Length: 79.2
+Model saved at episode 330 with mean episodic reward: 36.970481872558594
+
+-------------------------------------------
+
+Training episode 331
+Episodic Return: 94.65141296386719
+Episode Length: 52
+
+Value Loss: 111.58509826660156
+Policy Loss: -12.9407958984375
+Old Approx KL: -0.03190748393535614
+Approx KL: 0.034901417791843414
+Clip Fraction: 0.15030865095279836
+Explained Variance: 0.010935306549072266
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 332
+Episodic Return: 92.0999984741211
+Episode Length: 79
+
+Value Loss: 76.76995086669922
+Policy Loss: 3.2609214782714844
+Old Approx KL: 5.569084167480469
+Approx KL: 5.441126823425293
+Clip Fraction: 0.17613169783151444
+Explained Variance: -0.04461395740509033
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 333
+Episodic Return: 92.60001373291016
+Episode Length: 74
+
+Value Loss: 130.4369354248047
+Policy Loss: 3.9400975704193115
+Old Approx KL: 0.12540915608406067
+Approx KL: 0.05779299885034561
+Clip Fraction: 0.21855556684235733
+Explained Variance: 0.00966191291809082
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 334
+Episodic Return: 87.90000915527344
+Episode Length: 121
+
+Value Loss: 50.51749038696289
+Policy Loss: 0.914813220500946
+Old Approx KL: -0.05811131000518799
+Approx KL: 0.03668481111526489
+Clip Fraction: 0.10623306764395742
+Explained Variance: -0.027190327644348145
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 335
+Episodic Return: 95.3609390258789
+Episode Length: 45
+
+Value Loss: 58.09467315673828
+Policy Loss: -9.285990715026855
+Old Approx KL: -0.111007921397686
+Approx KL: 0.03575259819626808
+Clip Fraction: 0.09074074596994453
+Explained Variance: 0.05503791570663452
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 336
+Episodic Return: 91.20002746582031
+Episode Length: 88
+
+Value Loss: 61.677978515625
+Policy Loss: 9.210488319396973
+Old Approx KL: 0.09656285494565964
+Approx KL: 0.08010069280862808
+Clip Fraction: 0.17962963891526063
+Explained Variance: -0.10832512378692627
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 337
+Episodic Return: 93.19998168945312
+Episode Length: 68
+
+Value Loss: 87.60742950439453
+Policy Loss: -11.083656311035156
+Old Approx KL: -0.055997759103775024
+Approx KL: 0.05154621601104736
+Clip Fraction: 0.1421497657733119
+Explained Variance: -0.020357370376586914
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 338
+Episodic Return: 92.9000015258789
+Episode Length: 71
+
+Value Loss: 84.20906829833984
+Policy Loss: 1.8333574533462524
+Old Approx KL: 0.21705122292041779
+Approx KL: 0.16222551465034485
+Clip Fraction: 0.1510416749192195
+Explained Variance: -0.0067539215087890625
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 339
+Episodic Return: 92.70002746582031
+Episode Length: 73
+
+Value Loss: 74.72977447509766
+Policy Loss: -3.2163848876953125
+Old Approx KL: 0.09499867260456085
+Approx KL: 0.08923443406820297
+Clip Fraction: 0.15511111944913863
+Explained Variance: -0.00843501091003418
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 340
+Episodic Return: 93.40000915527344
+Episode Length: 66
+
+Value Loss: 21.816164016723633
+Policy Loss: -3.409656047821045
+Old Approx KL: 0.09795717149972916
+Approx KL: 0.16257363557815552
+Clip Fraction: 0.11414141967102434
+Explained Variance: 0.010670900344848633
+
+-------------------------------------------
+
+Evaluating the agent at episode 340...
+Evaluation Episode 1: Return: 93.8, Steps: 63
+Evaluation Episode 2: Return: 89.30000000000003, Steps: 108
+Evaluation Episode 3: Return: 91.90000000000013, Steps: 82
+Evaluation Episode 4: Return: 91.60000000000001, Steps: 85
+Evaluation Episode 5: Return: 93.39999999999996, Steps: 67
+Average Return over 5 episodes: 92.00000000000003
+Average Episode Length: 81.0
+Model saved at episode 340 with mean episodic reward: 93.40000915527344
+
+-------------------------------------------
+
+Training episode 341
+Episodic Return: 91.5
+Episode Length: 85
+
+Value Loss: 109.07901763916016
+Policy Loss: 6.961350917816162
+Old Approx KL: 0.15234458446502686
+Approx KL: 0.08029335737228394
+Clip Fraction: 0.2239463720684764
+Explained Variance: 0.001799941062927246
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 342
+Episodic Return: 92.40000915527344
+Episode Length: 76
+
+Value Loss: 103.40321350097656
+Policy Loss: -8.831440925598145
+Old Approx KL: 0.018955305218696594
+Approx KL: 0.03963051363825798
+Clip Fraction: 0.12692308347099102
+Explained Variance: 0.012021362781524658
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 343
+Episodic Return: 95.30001831054688
+Episode Length: 47
+
+Value Loss: 55.3685188293457
+Policy Loss: -9.8157377243042
+Old Approx KL: -0.09071417897939682
+Approx KL: 0.10005954653024673
+Clip Fraction: 0.09878472754886995
+Explained Variance: 0.10025358200073242
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 344
+Episodic Return: 92.300048828125
+Episode Length: 77
+
+Value Loss: 505.9040222167969
+Policy Loss: 22.09630012512207
+Old Approx KL: 0.4203249514102936
+Approx KL: 0.18098047375679016
+Clip Fraction: 0.3432692487556965
+Explained Variance: -0.006880402565002441
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 345
+Episodic Return: 90.3000259399414
+Episode Length: 97
+
+Value Loss: 17.995405197143555
+Policy Loss: -1.9406617879867554
+Old Approx KL: 0.05355561524629593
+Approx KL: 0.03997230902314186
+Clip Fraction: 0.12861953557214953
+Explained Variance: -0.027922749519348145
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 346
+Episodic Return: 79.49421691894531
+Episode Length: 124
+
+Value Loss: 18.016185760498047
+Policy Loss: 4.318170070648193
+Old Approx KL: 0.05783391743898392
+Approx KL: 0.06331475079059601
+Clip Fraction: 0.10939153952021448
+Explained Variance: -0.06861662864685059
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 347
+Episodic Return: 70.63785552978516
+Episode Length: 124
+
+Value Loss: 12.786447525024414
+Policy Loss: -1.1724148988723755
+Old Approx KL: 0.0013717710971832275
+Approx KL: 0.030038563534617424
+Clip Fraction: 0.07473545386973354
+Explained Variance: -0.01724982261657715
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 348
+Episodic Return: 53.01725387573242
+Episode Length: 124
+
+Value Loss: 23.521711349487305
+Policy Loss: 5.736180782318115
+Old Approx KL: 0.1134156733751297
+Approx KL: 0.053537871688604355
+Clip Fraction: 0.15912699329829405
+Explained Variance: -0.09013926982879639
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 349
+Episodic Return: 48.587890625
+Episode Length: 124
+
+Value Loss: 11.306660652160645
+Policy Loss: -3.6134719848632812
+Old Approx KL: 0.05782422423362732
+Approx KL: 0.08322826772928238
+Clip Fraction: 0.10330688360605449
+Explained Variance: -0.03657996654510498
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 350
+Episodic Return: 97.90000915527344
+Episode Length: 21
+
+Value Loss: 304.98724365234375
+Policy Loss: -18.748857498168945
+Old Approx KL: -0.14031003415584564
+Approx KL: 0.06958316266536713
+Clip Fraction: 0.05317460568178268
+Explained Variance: -0.03181862831115723
+
+-------------------------------------------
+
+Evaluating the agent at episode 350...
+Evaluation Episode 1: Return: 91.09999999999998, Steps: 90
+Evaluation Episode 2: Return: 90.20000000000006, Steps: 99
+Evaluation Episode 3: Return: 90.89999999999999, Steps: 92
+Evaluation Episode 4: Return: 90.20000000000005, Steps: 99
+Evaluation Episode 5: Return: 89.60000000000005, Steps: 105
+Average Return over 5 episodes: 90.40000000000002
+Average Episode Length: 97.0
+Model saved at episode 350 with mean episodic reward: 97.90000915527344
+
+-------------------------------------------
+
+Training episode 351
+Episodic Return: 94.80000305175781
+Episode Length: 52
+
+Value Loss: 50.53811264038086
+Policy Loss: -4.633561611175537
+Old Approx KL: -0.05194932222366333
+Approx KL: 0.03654039651155472
+Clip Fraction: 0.12098766101041326
+Explained Variance: 0.027469635009765625
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 352
+Episodic Return: 94.44962310791016
+Episode Length: 54
+
+Value Loss: 43.69392776489258
+Policy Loss: 7.457306861877441
+Old Approx KL: 0.11610062420368195
+Approx KL: 0.07057756185531616
+Clip Fraction: 0.14722223017640687
+Explained Variance: -0.03169572353363037
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 353
+Episodic Return: 90.69998168945312
+Episode Length: 93
+
+Value Loss: 8.07313346862793
+Policy Loss: -1.6404361724853516
+Old Approx KL: 0.05381327494978905
+Approx KL: 0.05241422355175018
+Clip Fraction: 0.0896057394202999
+Explained Variance: -0.12204146385192871
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 354
+Episodic Return: 79.41622161865234
+Episode Length: 124
+
+Value Loss: 72.68221282958984
+Policy Loss: 9.318689346313477
+Old Approx KL: 0.23011258244514465
+Approx KL: 0.1932029128074646
+Clip Fraction: 0.2976190646045974
+Explained Variance: -0.05146169662475586
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 355
+Episodic Return: 18.235254287719727
+Episode Length: 124
+
+Value Loss: 12.520263671875
+Policy Loss: 2.396470069885254
+Old Approx KL: 0.17564815282821655
+Approx KL: 0.04490107297897339
+Clip Fraction: 0.11018519054743506
+Explained Variance: 0.009947657585144043
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 356
+Episodic Return: 25.10443878173828
+Episode Length: 124
+
+Value Loss: 22.824466705322266
+Policy Loss: -3.949815511703491
+Old Approx KL: 0.19172091782093048
+Approx KL: 0.06716596335172653
+Clip Fraction: 0.05092592890714369
+Explained Variance: -0.0024927854537963867
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 357
+Episodic Return: 67.55955505371094
+Episode Length: 124
+
+Value Loss: 6.084144592285156
+Policy Loss: -2.6370067596435547
+Old Approx KL: 0.11153595894575119
+Approx KL: 0.04053603857755661
+Clip Fraction: 0.0904761954462008
+Explained Variance: -0.022751688957214355
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 358
+Episodic Return: 2.5746164321899414
+Episode Length: 124
+
+Value Loss: 93.97737121582031
+Policy Loss: 13.992141723632812
+Old Approx KL: 0.12387489527463913
+Approx KL: 0.12231981754302979
+Clip Fraction: 0.21124339745276505
+Explained Variance: -0.06333935260772705
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 359
+Episodic Return: 88.80000305175781
+Episode Length: 112
+
+Value Loss: 72.53333282470703
+Policy Loss: -11.649340629577637
+Old Approx KL: -0.06845804303884506
+Approx KL: 0.06368029862642288
+Clip Fraction: 0.13260234647283428
+Explained Variance: 0.011296987533569336
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 360
+Episodic Return: 59.38877487182617
+Episode Length: 124
+
+Value Loss: 19.800371170043945
+Policy Loss: 3.591102361679077
+Old Approx KL: 0.1911008656024933
+Approx KL: 0.08799299597740173
+Clip Fraction: 0.15714286550110768
+Explained Variance: -0.055442094802856445
+
+-------------------------------------------
+
+Evaluating the agent at episode 360...
+Evaluation Episode 1: Return: 88.19999999999995, Steps: 119
+Evaluation Episode 2: Return: 92.20000000000006, Steps: 79
+Evaluation Episode 3: Return: 85.12569832402242, Steps: 125
+Evaluation Episode 4: Return: 92.0000000000001, Steps: 81
+Evaluation Episode 5: Return: 32.87313432835817, Steps: 125
+Average Return over 5 episodes: 78.07976653047614
+Average Episode Length: 105.8
+Model saved at episode 360 with mean episodic reward: 59.38877487182617
+
+-------------------------------------------
+
+Training episode 361
+Episodic Return: 86.90306854248047
+Episode Length: 124
+
+Value Loss: 25.257705688476562
+Policy Loss: -5.082621097564697
+Old Approx KL: 0.01802733913064003
+Approx KL: 0.041240543127059937
+Clip Fraction: 0.09550265029131894
+Explained Variance: 0.003063499927520752
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 362
+Episodic Return: 77.7158432006836
+Episode Length: 124
+
+Value Loss: 22.850751876831055
+Policy Loss: 4.322292327880859
+Old Approx KL: 0.16568386554718018
+Approx KL: 0.06525617092847824
+Clip Fraction: 0.1621693204497061
+Explained Variance: -0.13064610958099365
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 363
+Episodic Return: 93.90000915527344
+Episode Length: 61
+
+Value Loss: 160.3954620361328
+Policy Loss: -17.713956832885742
+Old Approx KL: -0.07888516038656235
+Approx KL: 0.050277259200811386
+Clip Fraction: 0.16746032660797475
+Explained Variance: -0.012524604797363281
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 364
+Episodic Return: 94.80001831054688
+Episode Length: 52
+
+Value Loss: 22.765653610229492
+Policy Loss: -2.2972888946533203
+Old Approx KL: 0.0341242291033268
+Approx KL: 0.026183275505900383
+Clip Fraction: 0.09845679553432597
+Explained Variance: -0.10386800765991211
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 365
+Episodic Return: 94.19998931884766
+Episode Length: 58
+
+Value Loss: 65.77790832519531
+Policy Loss: 0.1201404556632042
+Old Approx KL: -0.005227422807365656
+Approx KL: 0.1401321142911911
+Clip Fraction: 0.10027778350437681
+Explained Variance: -0.03413283824920654
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 366
+Episodic Return: 92.30001831054688
+Episode Length: 77
+
+Value Loss: 99.492919921875
+Policy Loss: 9.712264060974121
+Old Approx KL: 0.35474464297294617
+Approx KL: 0.15951010584831238
+Clip Fraction: 0.18664530948855174
+Explained Variance: -0.012926101684570312
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 367
+Episodic Return: 74.319580078125
+Episode Length: 124
+
+Value Loss: 79.94134521484375
+Policy Loss: 9.074140548706055
+Old Approx KL: 0.2048884481191635
+Approx KL: 0.15104494988918304
+Clip Fraction: 0.19642858196877772
+Explained Variance: -0.05513405799865723
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 368
+Episodic Return: 21.99233627319336
+Episode Length: 124
+
+Value Loss: 85.28478240966797
+Policy Loss: 4.8851470947265625
+Old Approx KL: 0.31545183062553406
+Approx KL: 0.09630116820335388
+Clip Fraction: 0.16230159618019585
+Explained Variance: -0.011655449867248535
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 369
+Episodic Return: 45.50005340576172
+Episode Length: 124
+
+Value Loss: 19.20432472229004
+Policy Loss: -2.889000654220581
+Old Approx KL: -0.012528968043625355
+Approx KL: 0.049811895936727524
+Clip Fraction: 0.07896825826416413
+Explained Variance: 0.0026276111602783203
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 370
+Episodic Return: 14.959574699401855
+Episode Length: 124
+
+Value Loss: 81.77159881591797
+Policy Loss: 12.98884105682373
+Old Approx KL: 0.080592580139637
+Approx KL: 0.05617600679397583
+Clip Fraction: 0.16653440017548818
+Explained Variance: -0.01534724235534668
+
+-------------------------------------------
+
+Evaluating the agent at episode 370...
+Evaluation Episode 2: Return: 75.52228412256265, Steps: 125
+Evaluation Episode 3: Return: 56.47038081805354, Steps: 125
+Evaluation Episode 4: Return: 43.741032998565196, Steps: 125
+Evaluation Episode 5: Return: 39.335535976505085, Steps: 125
+Average Return over 5 episodes: 49.839359979618244
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 371
+Episodic Return: 50.253658294677734
+Episode Length: 124
+
+Value Loss: 74.65291595458984
+Policy Loss: -4.845000743865967
+Old Approx KL: 0.06497663259506226
+Approx KL: 0.08770599216222763
+Clip Fraction: 0.10886243948092063
+Explained Variance: 0.007251739501953125
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 372
+Episodic Return: 61.607200622558594
+Episode Length: 124
+
+Value Loss: 26.28816032409668
+Policy Loss: -1.9103907346725464
+Old Approx KL: 0.09376273304224014
+Approx KL: 0.0686735063791275
+Clip Fraction: 0.0699735488594761
+Explained Variance: 0.02543628215789795
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 373
+Episodic Return: 52.12403106689453
+Episode Length: 124
+
+Value Loss: 19.90315055847168
+Policy Loss: 3.978137969970703
+Old Approx KL: -0.033011313527822495
+Approx KL: 0.04434975981712341
+Clip Fraction: 0.11084656671635688
+Explained Variance: -0.01609504222869873
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 374
+Episodic Return: 57.09654998779297
+Episode Length: 124
+
+Value Loss: 59.32905960083008
+Policy Loss: -4.255280494689941
+Old Approx KL: -0.028685716912150383
+Approx KL: 0.010636240243911743
+Clip Fraction: 0.07751323182194952
+Explained Variance: 0.029723405838012695
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 375
+Episodic Return: 97.60001373291016
+Episode Length: 24
+
+Value Loss: 158.2456817626953
+Policy Loss: -14.988785743713379
+Old Approx KL: -0.08025912940502167
+Approx KL: 0.02466888725757599
+Clip Fraction: 0.0534722248557955
+Explained Variance: 0.11748921871185303
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 376
+Episodic Return: 66.77388763427734
+Episode Length: 124
+
+Value Loss: 50.06790542602539
+Policy Loss: 3.0514867305755615
+Old Approx KL: 0.26455065608024597
+Approx KL: 0.09766218811273575
+Clip Fraction: 0.19854498381120345
+Explained Variance: -0.07582211494445801
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 377
+Episodic Return: 44.517539978027344
+Episode Length: 124
+
+Value Loss: 9.407031059265137
+Policy Loss: -2.2168166637420654
+Old Approx KL: -0.0811278223991394
+Approx KL: 0.020405396819114685
+Clip Fraction: 0.07063492489535184
+Explained Variance: 0.00913083553314209
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 378
+Episodic Return: 8.001440048217773
+Episode Length: 124
+
+Value Loss: 21.56987762451172
+Policy Loss: 6.548243045806885
+Old Approx KL: 0.012888106517493725
+Approx KL: 0.03919840604066849
+Clip Fraction: 0.10529101081192493
+Explained Variance: -0.02395951747894287
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 379
+Episodic Return: 56.53040313720703
+Episode Length: 124
+
+Value Loss: 103.41728973388672
+Policy Loss: -8.536604881286621
+Old Approx KL: 0.052622515708208084
+Approx KL: 0.04492068663239479
+Clip Fraction: 0.1625661462959316
+Explained Variance: -0.05568504333496094
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 380
+Episodic Return: 70.17268371582031
+Episode Length: 124
+
+Value Loss: 38.4600944519043
+Policy Loss: -0.39379873871803284
+Old Approx KL: 0.06658416986465454
+Approx KL: 0.013043070212006569
+Clip Fraction: 0.12420635603900466
+Explained Variance: 0.033809781074523926
+
+-------------------------------------------
+
+Evaluating the agent at episode 380...
+Evaluation Episode 1: Return: 72.50000000000018, Steps: 125
+Evaluation Episode 2: Return: 66.5014684287812, Steps: 125
+Evaluation Episode 3: Return: 84.60564399421135, Steps: 125
+Evaluation Episode 4: Return: 67.99490538573512, Steps: 125
+Evaluation Episode 5: Return: 84.53703703703724, Steps: 125
+Average Return over 5 episodes: 75.22781096915301
+Average Episode Length: 125.0
+Model saved at episode 380 with mean episodic reward: 70.17268371582031
+
+-------------------------------------------
+
+Training episode 381
+Episodic Return: 43.156150817871094
+Episode Length: 124
+
+Value Loss: 47.339595794677734
+Policy Loss: -1.4463350772857666
+Old Approx KL: 0.020212680101394653
+Approx KL: 0.027263129130005836
+Clip Fraction: 0.08452381412424738
+Explained Variance: -0.023310303688049316
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 382
+Episodic Return: 56.44061279296875
+Episode Length: 124
+
+Value Loss: 16.974729537963867
+Policy Loss: 5.061278343200684
+Old Approx KL: 0.1255687028169632
+Approx KL: 0.061922430992126465
+Clip Fraction: 0.1642857235191124
+Explained Variance: -0.011138081550598145
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 383
+Episodic Return: 73.8955307006836
+Episode Length: 124
+
+Value Loss: 17.76198387145996
+Policy Loss: -6.30495548248291
+Old Approx KL: -0.0836421474814415
+Approx KL: 0.06418269127607346
+Clip Fraction: 0.1298941864617287
+Explained Variance: 0.00766301155090332
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 384
+Episodic Return: 69.34574890136719
+Episode Length: 124
+
+Value Loss: 44.96430206298828
+Policy Loss: 5.479830741882324
+Old Approx KL: 0.4203697144985199
+Approx KL: 0.14603668451309204
+Clip Fraction: 0.2113756723554125
+Explained Variance: -0.10221731662750244
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 385
+Episodic Return: 94.69999694824219
+Episode Length: 53
+
+Value Loss: 148.8625946044922
+Policy Loss: -16.34621238708496
+Old Approx KL: 0.02546575665473938
+Approx KL: 0.10230987519025803
+Clip Fraction: 0.1407407483568898
+Explained Variance: -0.019029736518859863
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 386
+Episodic Return: 93.50000762939453
+Episode Length: 65
+
+Value Loss: 34.235836029052734
+Policy Loss: -3.533316135406494
+Old Approx KL: 0.04360323026776314
+Approx KL: 0.056373924016952515
+Clip Fraction: 0.10467172306821201
+Explained Variance: -0.07786035537719727
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 387
+Episodic Return: 92.79996490478516
+Episode Length: 72
+
+Value Loss: 64.78958129882812
+Policy Loss: 2.7120201587677
+Old Approx KL: 0.2393750697374344
+Approx KL: 0.11591596156358719
+Clip Fraction: 0.12754630354336566
+Explained Variance: -0.03307831287384033
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 388
+Episodic Return: 49.25185012817383
+Episode Length: 124
+
+Value Loss: 125.7054443359375
+Policy Loss: 13.221429824829102
+Old Approx KL: 0.46576395630836487
+Approx KL: 0.24227166175842285
+Clip Fraction: 0.29788361406988567
+Explained Variance: -0.05558645725250244
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 389
+Episodic Return: 86.37801361083984
+Episode Length: 124
+
+Value Loss: 25.615188598632812
+Policy Loss: -5.445404052734375
+Old Approx KL: 0.05088552460074425
+Approx KL: 0.036822427064180374
+Clip Fraction: 0.09417989947611377
+Explained Variance: -0.05593383312225342
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 390
+Episodic Return: 89.55164337158203
+Episode Length: 103
+
+Value Loss: 11.147844314575195
+Policy Loss: 1.277144432067871
+Old Approx KL: 0.008082807064056396
+Approx KL: 0.015593016520142555
+Clip Fraction: 0.06873016258080801
+Explained Variance: -0.021251678466796875
+
+-------------------------------------------
+
+Evaluating the agent at episode 390...
+Evaluation Episode 1: Return: 90.4, Steps: 97
+Evaluation Episode 2: Return: 92.60000000000008, Steps: 75
+Evaluation Episode 3: Return: 90.63820224719097, Steps: 89
+Evaluation Episode 4: Return: 89.60000000000001, Steps: 105
+Evaluation Episode 5: Return: 92.81387696709587, Steps: 70
+Average Return over 5 episodes: 91.2104158428574
+Average Episode Length: 87.2
+Model saved at episode 390 with mean episodic reward: 89.55164337158203
+
+-------------------------------------------
+
+Training episode 391
+Episodic Return: 92.07508087158203
+Episode Length: 75
+
+Value Loss: 72.42755126953125
+Policy Loss: -12.062317848205566
+Old Approx KL: -0.04739553481340408
+Approx KL: 0.05330665037035942
+Clip Fraction: 0.12066667338212331
+Explained Variance: 0.0065920352935791016
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 392
+Episodic Return: 90.80003356933594
+Episode Length: 92
+
+Value Loss: 49.19343185424805
+Policy Loss: 3.1476848125457764
+Old Approx KL: 0.23017990589141846
+Approx KL: 0.1256161779165268
+Clip Fraction: 0.1895161386659389
+Explained Variance: -0.04157149791717529
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 393
+Episodic Return: 93.19999694824219
+Episode Length: 68
+
+Value Loss: 19.16132164001465
+Policy Loss: -6.162049770355225
+Old Approx KL: -0.03963613137602806
+Approx KL: 0.033586472272872925
+Clip Fraction: 0.07741546317719031
+Explained Variance: -0.0545886754989624
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 394
+Episodic Return: 92.46253204345703
+Episode Length: 68
+
+Value Loss: 37.67627716064453
+Policy Loss: 1.0957874059677124
+Old Approx KL: 0.0031916857697069645
+Approx KL: 0.08659052103757858
+Clip Fraction: 0.09311594687186289
+Explained Variance: 0.0025194287300109863
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 395
+Episodic Return: 96.39999389648438
+Episode Length: 36
+
+Value Loss: 146.14529418945312
+Policy Loss: -15.660669326782227
+Old Approx KL: -0.148645281791687
+Approx KL: 0.10791909694671631
+Clip Fraction: 0.12870371108874679
+Explained Variance: -0.0659327507019043
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 396
+Episodic Return: 94.10000610351562
+Episode Length: 59
+
+Value Loss: 78.9551010131836
+Policy Loss: 7.916647434234619
+Old Approx KL: 0.33509141206741333
+Approx KL: 0.19804327189922333
+Clip Fraction: 0.26333334747081
+Explained Variance: -0.02183401584625244
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 397
+Episodic Return: 65.09104919433594
+Episode Length: 124
+
+Value Loss: 38.28194046020508
+Policy Loss: 5.885311126708984
+Old Approx KL: 0.33606472611427307
+Approx KL: 0.0764738917350769
+Clip Fraction: 0.17275133248536834
+Explained Variance: -0.03314220905303955
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 398
+Episodic Return: 10.709162712097168
+Episode Length: 124
+
+Value Loss: 23.26619529724121
+Policy Loss: 5.4091010093688965
+Old Approx KL: 0.08981712907552719
+Approx KL: 0.04073791950941086
+Clip Fraction: 0.11203704280630937
+Explained Variance: -0.04981720447540283
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 399
+Episodic Return: 33.0489616394043
+Episode Length: 124
+
+Value Loss: 40.22972869873047
+Policy Loss: -8.688963890075684
+Old Approx KL: -0.0691668689250946
+Approx KL: 0.02733112871646881
+Clip Fraction: 0.10542328640936859
+Explained Variance: -0.008177638053894043
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 400
+Episodic Return: 52.4045524597168
+Episode Length: 124
+
+Value Loss: 173.9969024658203
+Policy Loss: -3.4517014026641846
+Old Approx KL: 0.03192753717303276
+Approx KL: 0.061717092990875244
+Clip Fraction: 0.16097884499541823
+Explained Variance: 0.002223074436187744
+
+-------------------------------------------
+
+Evaluating the agent at episode 400...
+Evaluation Episode 1: Return: 18.373493975903607, Steps: 125
+Evaluation Episode 2: Return: 45.01824817518244, Steps: 125
+Evaluation Episode 3: Return: -0.5403458213256399, Steps: 125
+Evaluation Episode 4: Return: 9.985207100591717, Steps: 125
+Evaluation Episode 5: Return: 66.02062588904712, Steps: 125
+Average Return over 5 episodes: 27.771445863879855
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 401
+Episodic Return: 18.27993392944336
+Episode Length: 124
+
+Value Loss: 13.386706352233887
+Policy Loss: 1.3415385484695435
+Old Approx KL: 0.07383959740400314
+Approx KL: 0.0278050247579813
+Clip Fraction: 0.11878307521461494
+Explained Variance: -0.06719410419464111
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 402
+Episodic Return: 26.065021514892578
+Episode Length: 124
+
+Value Loss: 10.129173278808594
+Policy Loss: -3.9287896156311035
+Old Approx KL: -0.08811438828706741
+Approx KL: 0.05226340517401695
+Clip Fraction: 0.11613757246070439
+Explained Variance: -0.07913577556610107
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 403
+Episodic Return: 46.770076751708984
+Episode Length: 124
+
+Value Loss: 20.675865173339844
+Policy Loss: 2.3918943405151367
+Old Approx KL: 0.08223405480384827
+Approx KL: 0.05029696971178055
+Clip Fraction: 0.1343915414892965
+Explained Variance: -0.01760411262512207
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 404
+Episodic Return: 55.3994140625
+Episode Length: 124
+
+Value Loss: 37.22319412231445
+Policy Loss: -8.197237968444824
+Old Approx KL: -0.06814401596784592
+Approx KL: 0.02958599664270878
+Clip Fraction: 0.12142857832331506
+Explained Variance: -0.05859577655792236
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 405
+Episodic Return: -4.3194580078125
+Episode Length: 124
+
+Value Loss: 103.05028533935547
+Policy Loss: 11.892605781555176
+Old Approx KL: 0.41263172030448914
+Approx KL: 0.16121476888656616
+Clip Fraction: 0.3335979016172507
+Explained Variance: -0.030388951301574707
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 406
+Episodic Return: 62.916664123535156
+Episode Length: 124
+
+Value Loss: 76.89903259277344
+Policy Loss: -13.26270580291748
+Old Approx KL: -0.11862356960773468
+Approx KL: 0.033994853496551514
+Clip Fraction: 0.15555556313622565
+Explained Variance: -0.028855443000793457
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 407
+Episodic Return: 44.040157318115234
+Episode Length: 124
+
+Value Loss: 24.767114639282227
+Policy Loss: 5.880860328674316
+Old Approx KL: 0.003032916923984885
+Approx KL: 0.02624702826142311
+Clip Fraction: 0.14470900258138067
+Explained Variance: -0.02901291847229004
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 408
+Episodic Return: 20.319072723388672
+Episode Length: 124
+
+Value Loss: 3.6191928386688232
+Policy Loss: 0.831179141998291
+Old Approx KL: 0.10213496536016464
+Approx KL: 0.046918775886297226
+Clip Fraction: 0.11957672526616425
+Explained Variance: -0.060838937759399414
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 409
+Episodic Return: 29.103633880615234
+Episode Length: 124
+
+Value Loss: 18.206125259399414
+Policy Loss: -4.845011234283447
+Old Approx KL: 0.05886821821331978
+Approx KL: 0.022447114810347557
+Clip Fraction: 0.07936508381473166
+Explained Variance: -0.05166172981262207
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 410
+Episodic Return: 42.29254913330078
+Episode Length: 124
+
+Value Loss: 20.047449111938477
+Policy Loss: 4.596484661102295
+Old Approx KL: 0.1748993843793869
+Approx KL: 0.05395308881998062
+Clip Fraction: 0.1917989526742271
+Explained Variance: -0.06456100940704346
+
+-------------------------------------------
+
+Evaluating the agent at episode 410...
+Evaluation Episode 1: Return: 33.07721139430285, Steps: 125
+Evaluation Episode 2: Return: 11.476608187134513, Steps: 125
+Evaluation Episode 3: Return: 43.88148667601681, Steps: 125
+Evaluation Episode 4: Return: 60.240524781341065, Steps: 125
+Evaluation Episode 5: Return: 37.35714285714282, Steps: 125
+Average Return over 5 episodes: 37.20659477918762
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 411
+Episodic Return: 8.283113479614258
+Episode Length: 124
+
+Value Loss: 2.112712860107422
+Policy Loss: 0.6577355861663818
+Old Approx KL: -0.006186407990753651
+Approx KL: 0.019022101536393166
+Clip Fraction: 0.028968255774724106
+Explained Variance: -0.03715240955352783
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 412
+Episodic Return: 64.87227630615234
+Episode Length: 124
+
+Value Loss: 34.35363006591797
+Policy Loss: -6.134494304656982
+Old Approx KL: -0.06618402898311615
+Approx KL: 0.04656192287802696
+Clip Fraction: 0.17354498262561502
+Explained Variance: -0.004254460334777832
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 413
+Episodic Return: 31.37754249572754
+Episode Length: 124
+
+Value Loss: 47.6678352355957
+Policy Loss: 6.868754863739014
+Old Approx KL: 0.20802025496959686
+Approx KL: 0.0651472732424736
+Clip Fraction: 0.21177249916252636
+Explained Variance: -0.06354522705078125
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 414
+Episodic Return: 52.35717010498047
+Episode Length: 124
+
+Value Loss: 29.130292892456055
+Policy Loss: -6.702144622802734
+Old Approx KL: -0.08012213557958603
+Approx KL: 0.012843740172684193
+Clip Fraction: 0.09854497877319181
+Explained Variance: 0.0017772912979125977
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 415
+Episodic Return: 90.30005645751953
+Episode Length: 97
+
+Value Loss: 13.224527359008789
+Policy Loss: 0.05570106580853462
+Old Approx KL: 0.06616193056106567
+Approx KL: 0.044340088963508606
+Clip Fraction: 0.09949495468401548
+Explained Variance: -0.02266061305999756
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 416
+Episodic Return: 38.855445861816406
+Episode Length: 124
+
+Value Loss: 23.195331573486328
+Policy Loss: 5.8353705406188965
+Old Approx KL: 0.14344000816345215
+Approx KL: 0.05386815220117569
+Clip Fraction: 0.15952381750361788
+Explained Variance: -0.0039048194885253906
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 417
+Episodic Return: 36.388916015625
+Episode Length: 124
+
+Value Loss: 36.61564254760742
+Policy Loss: -6.968284606933594
+Old Approx KL: -0.0028127313125878572
+Approx KL: 0.039299126714468
+Clip Fraction: 0.10886243954005223
+Explained Variance: -0.021361708641052246
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 418
+Episodic Return: 16.051490783691406
+Episode Length: 124
+
+Value Loss: 26.89312171936035
+Policy Loss: 5.3804240226745605
+Old Approx KL: 0.21786819398403168
+Approx KL: 0.046375252306461334
+Clip Fraction: 0.20833334433180944
+Explained Variance: -0.07034194469451904
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 419
+Episodic Return: 68.98696899414062
+Episode Length: 124
+
+Value Loss: 235.58267211914062
+Policy Loss: -13.282633781433105
+Old Approx KL: -0.07442446798086166
+Approx KL: 0.02338506281375885
+Clip Fraction: 0.08637566620572693
+Explained Variance: 0.0005161166191101074
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 420
+Episodic Return: 36.075687408447266
+Episode Length: 124
+
+Value Loss: 28.95503044128418
+Policy Loss: 2.5477607250213623
+Old Approx KL: -0.0119748804718256
+Approx KL: 0.10443174839019775
+Clip Fraction: 0.1539682618061465
+Explained Variance: -0.029469966888427734
+
+-------------------------------------------
+
+Evaluating the agent at episode 420...
+Evaluation Episode 1: Return: 8.716617210682506, Steps: 125
+Evaluation Episode 2: Return: 24.911095305832127, Steps: 125
+Evaluation Episode 3: Return: 51.30281690140841, Steps: 125
+Evaluation Episode 4: Return: 23.77311522048362, Steps: 125
+Evaluation Episode 5: Return: 20.4803328290469, Steps: 125
+Average Return over 5 episodes: 25.83679549349072
+Average Episode Length: 125.0
+
+-------------------------------------------
+
+Training episode 421
+Episodic Return: 47.648170471191406
+Episode Length: 124
+
+Value Loss: 21.187122344970703
+Policy Loss: -7.324132442474365
+Old Approx KL: -0.05853652581572533
+Approx KL: 0.03196723014116287
+Clip Fraction: 0.09761905321289623
+Explained Variance: -0.09472870826721191
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 422
+Episodic Return: 72.63512420654297
+Episode Length: 124
+
+Value Loss: 12.37043285369873
+Policy Loss: -0.005648708436638117
+Old Approx KL: 0.04453203082084656
+Approx KL: 0.037656012922525406
+Clip Fraction: 0.1206349271334826
+Explained Variance: -0.020173072814941406
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 423
+Episodic Return: 66.99790954589844
+Episode Length: 124
+
+Value Loss: 9.967875480651855
+Policy Loss: 1.659084677696228
+Old Approx KL: 0.08270037919282913
+Approx KL: 0.07334385067224503
+Clip Fraction: 0.10066138108867029
+Explained Variance: -0.0659174919128418
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 424
+Episodic Return: 63.37169647216797
+Episode Length: 124
+
+Value Loss: 11.477094650268555
+Policy Loss: -0.8716913461685181
+Old Approx KL: 0.1452823132276535
+Approx KL: 0.06142367050051689
+Clip Fraction: 0.10383598466536828
+Explained Variance: 0.01154094934463501
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 425
+Episodic Return: 88.50000762939453
+Episode Length: 115
+
+Value Loss: 6.082287788391113
+Policy Loss: 0.7811587452888489
+Old Approx KL: -0.03673962876200676
+Approx KL: 0.1052100658416748
+Clip Fraction: 0.12663818332247245
+Explained Variance: 0.006475210189819336
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 426
+Episodic Return: 74.01852416992188
+Episode Length: 124
+
+Value Loss: 12.533233642578125
+Policy Loss: -4.889401912689209
+Old Approx KL: -0.09345918893814087
+Approx KL: 0.017448220402002335
+Clip Fraction: 0.13677249423095159
+Explained Variance: -0.13380181789398193
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 427
+Episodic Return: 89.00000762939453
+Episode Length: 110
+
+Value Loss: 25.982248306274414
+Policy Loss: 5.6176276206970215
+Old Approx KL: 0.3070623278617859
+Approx KL: 0.15121594071388245
+Clip Fraction: 0.3040540710695692
+Explained Variance: -0.08882904052734375
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 428
+Episodic Return: 85.1945571899414
+Episode Length: 124
+
+Value Loss: 22.77210807800293
+Policy Loss: -5.960556983947754
+Old Approx KL: 0.026039553806185722
+Approx KL: 0.12898150086402893
+Clip Fraction: 0.17103175499609538
+Explained Variance: -0.015319466590881348
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 429
+Episodic Return: 88.60005187988281
+Episode Length: 114
+
+Value Loss: 38.591766357421875
+Policy Loss: 4.112307071685791
+Old Approx KL: 0.34416496753692627
+Approx KL: 0.14906422793865204
+Clip Fraction: 0.220614046217841
+Explained Variance: -0.01716148853302002
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 430
+Episodic Return: 78.02928161621094
+Episode Length: 124
+
+Value Loss: 5.543351650238037
+Policy Loss: 0.8699490427970886
+Old Approx KL: 0.16942672431468964
+Approx KL: 0.06561539322137833
+Clip Fraction: 0.1269841336659969
+Explained Variance: -0.009994745254516602
+
+-------------------------------------------
+
+Evaluating the agent at episode 430...
+Evaluation Episode 1: Return: 64.2180925666201, Steps: 125
+Evaluation Episode 2: Return: 89.9, Steps: 102
+Evaluation Episode 3: Return: 53.878066378066315, Steps: 125
+Evaluation Episode 4: Return: 90.40000000000005, Steps: 97
+Evaluation Episode 5: Return: 87.89999999999996, Steps: 122
+Average Return over 5 episodes: 77.25923178893729
+Average Episode Length: 114.2
+Model saved at episode 430 with mean episodic reward: 78.02928161621094
+
+-------------------------------------------
+
+Training episode 431
+Episodic Return: 89.29997253417969
+Episode Length: 107
+
+Value Loss: 23.601621627807617
+Policy Loss: -2.830171585083008
+Old Approx KL: -0.027605248615145683
+Approx KL: 0.06803783774375916
+Clip Fraction: 0.11851852473423437
+Explained Variance: -0.015810608863830566
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 432
+Episodic Return: 73.33692169189453
+Episode Length: 124
+
+Value Loss: 19.11688232421875
+Policy Loss: -0.6296287178993225
+Old Approx KL: 0.06689975410699844
+Approx KL: 0.018879059702157974
+Clip Fraction: 0.1341269915066068
+Explained Variance: -0.03768742084503174
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 433
+Episodic Return: 77.8561019897461
+Episode Length: 124
+
+Value Loss: 7.257663726806641
+Policy Loss: 0.9416338801383972
+Old Approx KL: 0.04541819915175438
+Approx KL: 0.020890260115265846
+Clip Fraction: 0.11653439770083106
+Explained Variance: -0.025815486907958984
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 434
+Episodic Return: 91.79997253417969
+Episode Length: 82
+
+Value Loss: 95.20858001708984
+Policy Loss: -13.80291748046875
+Old Approx KL: 0.019785908982157707
+Approx KL: 0.07911490648984909
+Clip Fraction: 0.20019842402654744
+Explained Variance: -0.02433156967163086
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 435
+Episodic Return: 90.9000015258789
+Episode Length: 91
+
+Value Loss: 51.372310638427734
+Policy Loss: 7.598426342010498
+Old Approx KL: 0.42577657103538513
+Approx KL: 0.1403919905424118
+Clip Fraction: 0.3349462547489712
+Explained Variance: -0.06940162181854248
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 436
+Episodic Return: 61.029441833496094
+Episode Length: 124
+
+Value Loss: 3.191619634628296
+Policy Loss: -0.3569307327270508
+Old Approx KL: 0.06189880520105362
+Approx KL: 0.018586335703730583
+Clip Fraction: 0.07936508377038297
+Explained Variance: 0.0037595629692077637
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 437
+Episodic Return: 88.9000015258789
+Episode Length: 111
+
+Value Loss: 5.369396686553955
+Policy Loss: 0.1876165121793747
+Old Approx KL: 0.0388178676366806
+Approx KL: 0.03295941278338432
+Clip Fraction: 0.07777778191810793
+Explained Variance: -0.01572871208190918
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 438
+Episodic Return: 88.50004577636719
+Episode Length: 115
+
+Value Loss: 15.746050834655762
+Policy Loss: -2.9074995517730713
+Old Approx KL: 0.002208751393482089
+Approx KL: 0.013149810023605824
+Clip Fraction: 0.1537037125796589
+Explained Variance: -0.02270805835723877
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 439
+Episodic Return: 88.50000762939453
+Episode Length: 115
+
+Value Loss: 9.46217155456543
+Policy Loss: 2.0721328258514404
+Old Approx KL: 0.0864735096693039
+Approx KL: 0.07668661326169968
+Clip Fraction: 0.14515670302968758
+Explained Variance: -0.02056431770324707
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 440
+Episodic Return: 89.10005950927734
+Episode Length: 109
+
+Value Loss: 24.336790084838867
+Policy Loss: -4.793609619140625
+Old Approx KL: 0.02815414033830166
+Approx KL: 0.043164465576410294
+Clip Fraction: 0.13948949616033215
+Explained Variance: -0.01212608814239502
+
+-------------------------------------------
+
+Evaluating the agent at episode 440...
+Evaluation Episode 1: Return: 89.99999999999997, Steps: 101
+Evaluation Episode 2: Return: 91.39999999999995, Steps: 87
+Evaluation Episode 3: Return: 89.50000000000003, Steps: 106
+Evaluation Episode 4: Return: 87.90000000000005, Steps: 122
+Evaluation Episode 5: Return: 93.69999999999995, Steps: 64
+Average Return over 5 episodes: 90.49999999999999
+Average Episode Length: 96.0
+Model saved at episode 440 with mean episodic reward: 89.10005950927734
+
+-------------------------------------------
+
+Training episode 441
+Episodic Return: 90.10000610351562
+Episode Length: 99
+
+Value Loss: 24.565170288085938
+Policy Loss: 3.178314447402954
+Old Approx KL: 0.09958262741565704
+Approx KL: 0.06812059879302979
+Clip Fraction: 0.17710438654805072
+Explained Variance: -0.02815091609954834
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 442
+Episodic Return: 94.30003356933594
+Episode Length: 57
+
+Value Loss: 137.24644470214844
+Policy Loss: -14.40246295928955
+Old Approx KL: -0.044379156082868576
+Approx KL: 0.10450766980648041
+Clip Fraction: 0.20614036035380864
+Explained Variance: -0.0026847124099731445
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 443
+Episodic Return: 90.99998474121094
+Episode Length: 90
+
+Value Loss: 107.36058807373047
+Policy Loss: 10.870962142944336
+Old Approx KL: 0.5440765023231506
+Approx KL: 0.278735876083374
+Clip Fraction: 0.34981483355578447
+Explained Variance: -0.0936199426651001
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 444
+Episodic Return: 88.72068786621094
+Episode Length: 110
+
+Value Loss: 14.600397109985352
+Policy Loss: -4.162328720092773
+Old Approx KL: -0.08728272467851639
+Approx KL: 0.06996454298496246
+Clip Fraction: 0.09632132638682116
+Explained Variance: -0.002992987632751465
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 445
+Episodic Return: 89.00001525878906
+Episode Length: 110
+
+Value Loss: 20.195154190063477
+Policy Loss: 0.1196260005235672
+Old Approx KL: -0.03198537975549698
+Approx KL: 0.07930503785610199
+Clip Fraction: 0.10878378991876636
+Explained Variance: 0.022985458374023438
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 446
+Episodic Return: 92.00001525878906
+Episode Length: 80
+
+Value Loss: 46.92774200439453
+Policy Loss: -8.95698070526123
+Old Approx KL: -0.10296934098005295
+Approx KL: 0.024630460888147354
+Clip Fraction: 0.13117284615190677
+Explained Variance: -0.040675997734069824
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 447
+Episodic Return: 93.59999084472656
+Episode Length: 64
+
+Value Loss: 15.176371574401855
+Policy Loss: -3.974001407623291
+Old Approx KL: -0.0466357097029686
+Approx KL: 0.03217468783259392
+Clip Fraction: 0.10404040949475585
+Explained Variance: -0.05415904521942139
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 448
+Episodic Return: 89.59999084472656
+Episode Length: 104
+
+Value Loss: 29.464582443237305
+Policy Loss: 6.417929172515869
+Old Approx KL: 0.2443152666091919
+Approx KL: 0.10466362535953522
+Clip Fraction: 0.21888890085475785
+Explained Variance: -0.02784407138824463
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 449
+Episodic Return: 88.00001525878906
+Episode Length: 120
+
+Value Loss: 16.026601791381836
+Policy Loss: -4.4132537841796875
+Old Approx KL: -0.025535985827445984
+Approx KL: 0.055740661919116974
+Clip Fraction: 0.07972222686124344
+Explained Variance: -0.032372355461120605
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 450
+Episodic Return: 37.7950325012207
+Episode Length: 124
+
+Value Loss: 94.62055206298828
+Policy Loss: 12.141382217407227
+Old Approx KL: 0.27214857935905457
+Approx KL: 0.11917699873447418
+Clip Fraction: 0.2529100659377282
+Explained Variance: -0.04334366321563721
+
+-------------------------------------------
+
+Evaluating the agent at episode 450...
+Evaluation Episode 1: Return: 88.90000000000003, Steps: 112
+Evaluation Episode 2: Return: 3.251445086705211, Steps: 125
+Evaluation Episode 3: Return: 89.20000000000002, Steps: 109
+Evaluation Episode 4: Return: 23.314606741572966, Steps: 125
+Evaluation Episode 5: Return: 88.39999999999999, Steps: 117
+Average Return over 5 episodes: 58.61321036565564
+Average Episode Length: 117.6
+Model saved at episode 450 with mean episodic reward: 37.7950325012207
+
+-------------------------------------------
+
+Training episode 451
+Episodic Return: 73.45165252685547
+Episode Length: 124
+
+Value Loss: 26.129501342773438
+Policy Loss: -5.675100326538086
+Old Approx KL: -0.018944919109344482
+Approx KL: 0.03905225917696953
+Clip Fraction: 0.11164021755139979
+Explained Variance: 0.030609309673309326
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 452
+Episodic Return: 80.93797302246094
+Episode Length: 124
+
+Value Loss: 18.111845016479492
+Policy Loss: 2.281654119491577
+Old Approx KL: 0.4461093544960022
+Approx KL: 0.12138526886701584
+Clip Fraction: 0.12632275751185795
+Explained Variance: -0.04629051685333252
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 453
+Episodic Return: 67.81161499023438
+Episode Length: 124
+
+Value Loss: 14.444679260253906
+Policy Loss: -0.9059358835220337
+Old Approx KL: -0.029382122680544853
+Approx KL: 0.0215444453060627
+Clip Fraction: 0.07685185581563957
+Explained Variance: -0.03583025932312012
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 454
+Episodic Return: 19.535921096801758
+Episode Length: 124
+
+Value Loss: 6.382274150848389
+Policy Loss: 2.4730846881866455
+Old Approx KL: 0.21694903075695038
+Approx KL: 0.07351075112819672
+Clip Fraction: 0.1273809592904789
+Explained Variance: -0.04652702808380127
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 455
+Episodic Return: 44.642845153808594
+Episode Length: 124
+
+Value Loss: 28.20415687561035
+Policy Loss: -8.155675888061523
+Old Approx KL: -0.10904841870069504
+Approx KL: 0.03240879625082016
+Clip Fraction: 0.13373016551255235
+Explained Variance: -0.022220969200134277
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 456
+Episodic Return: 20.882572174072266
+Episode Length: 124
+
+Value Loss: 42.112178802490234
+Policy Loss: 8.254340171813965
+Old Approx KL: 0.18233540654182434
+Approx KL: 0.06585260480642319
+Clip Fraction: 0.17592593613598081
+Explained Variance: -0.1522594690322876
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 457
+Episodic Return: 39.1987190246582
+Episode Length: 124
+
+Value Loss: 29.016281127929688
+Policy Loss: -7.226170539855957
+Old Approx KL: 0.0678539127111435
+Approx KL: 0.06463589519262314
+Clip Fraction: 0.12804233375936747
+Explained Variance: -0.013823151588439941
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 458
+Episodic Return: 69.54747009277344
+Episode Length: 124
+
+Value Loss: 9.585528373718262
+Policy Loss: -0.1556805819272995
+Old Approx KL: 0.0709654837846756
+Approx KL: 0.08426755666732788
+Clip Fraction: 0.0962963014072369
+Explained Variance: -0.12245714664459229
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 459
+Episodic Return: 23.075481414794922
+Episode Length: 124
+
+Value Loss: 25.674179077148438
+Policy Loss: 5.648937702178955
+Old Approx KL: 0.07106351107358932
+Approx KL: 0.05982229858636856
+Clip Fraction: 0.19828043342937554
+Explained Variance: -0.08328115940093994
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 460
+Episodic Return: 68.50889587402344
+Episode Length: 124
+
+Value Loss: 29.514490127563477
+Policy Loss: -7.781010627746582
+Old Approx KL: -0.07358180731534958
+Approx KL: 0.07011242210865021
+Clip Fraction: 0.15582011390240894
+Explained Variance: -0.06488955020904541
+
+-------------------------------------------
+
+Evaluating the agent at episode 460...
+Evaluation Episode 1: Return: 29.665242165242155, Steps: 125
+Evaluation Episode 2: Return: 70.38159771754647, Steps: 125
+Evaluation Episode 3: Return: 53.12499999999995, Steps: 125
+Evaluation Episode 4: Return: 43.021936459909185, Steps: 125
+Evaluation Episode 5: Return: 59.11572052401743, Steps: 125
+Average Return over 5 episodes: 51.06189937334303
+Average Episode Length: 125.0
+Model saved at episode 460 with mean episodic reward: 68.50889587402344
+
+-------------------------------------------
+
+Training episode 461
+Episodic Return: 77.78394317626953
+Episode Length: 124
+
+Value Loss: 26.19180679321289
+Policy Loss: 3.0318496227264404
+Old Approx KL: 0.0694623589515686
+Approx KL: 0.036281879991292953
+Clip Fraction: 0.14986773232914627
+Explained Variance: 0.05534660816192627
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 462
+Episodic Return: 78.17675018310547
+Episode Length: 124
+
+Value Loss: 19.9245662689209
+Policy Loss: -3.6068551540374756
+Old Approx KL: 0.07941599935293198
+Approx KL: 0.11548849195241928
+Clip Fraction: 0.12103175253622116
+Explained Variance: 0.058247923851013184
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 463
+Episodic Return: 88.60002136230469
+Episode Length: 114
+
+Value Loss: 19.8519344329834
+Policy Loss: -0.8276683688163757
+Old Approx KL: 0.05095117911696434
+Approx KL: 0.04089081659913063
+Clip Fraction: 0.10643275397453915
+Explained Variance: -0.13669908046722412
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 464
+Episodic Return: 81.50586700439453
+Episode Length: 124
+
+Value Loss: 24.497711181640625
+Policy Loss: 4.0716776847839355
+Old Approx KL: 0.28860601782798767
+Approx KL: 0.19126468896865845
+Clip Fraction: 0.22896826595422767
+Explained Variance: -0.015020251274108887
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 465
+Episodic Return: 71.6655044555664
+Episode Length: 124
+
+Value Loss: 20.410009384155273
+Policy Loss: -4.1013312339782715
+Old Approx KL: -0.03909915313124657
+Approx KL: 0.048869531601667404
+Clip Fraction: 0.10634921217662474
+Explained Variance: -0.012967228889465332
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 466
+Episodic Return: 87.7000503540039
+Episode Length: 123
+
+Value Loss: 12.677270889282227
+Policy Loss: 2.061272621154785
+Old Approx KL: 0.13822703063488007
+Approx KL: 0.07344945520162582
+Clip Fraction: 0.16436315215821187
+Explained Variance: -0.03376603126525879
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 467
+Episodic Return: 53.678611755371094
+Episode Length: 124
+
+Value Loss: 8.577188491821289
+Policy Loss: 0.6105062961578369
+Old Approx KL: 0.03623691201210022
+Approx KL: 0.0085444962605834
+Clip Fraction: 0.10912698978883406
+Explained Variance: -0.021744251251220703
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 468
+Episodic Return: 89.69996643066406
+Episode Length: 103
+
+Value Loss: 18.899539947509766
+Policy Loss: -4.706618785858154
+Old Approx KL: 0.15407954156398773
+Approx KL: 0.1195380836725235
+Clip Fraction: 0.1385714352663074
+Explained Variance: -0.015833616256713867
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 469
+Episodic Return: 90.99999237060547
+Episode Length: 90
+
+Value Loss: 18.512935638427734
+Policy Loss: 2.0241858959198
+Old Approx KL: 0.20173698663711548
+Approx KL: 0.12685270607471466
+Clip Fraction: 0.1964814919150538
+Explained Variance: -0.006822109222412109
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 470
+Episodic Return: 94.50003051757812
+Episode Length: 55
+
+Value Loss: 17.043973922729492
+Policy Loss: -4.519685745239258
+Old Approx KL: 0.010042286477982998
+Approx KL: 0.1537523716688156
+Clip Fraction: 0.1222222280410821
+Explained Variance: -0.024969935417175293
+
+-------------------------------------------
+
+Evaluating the agent at episode 470...
+Evaluation Episode 1: Return: 91.70000000000007, Steps: 84
+Evaluation Episode 2: Return: 90.1, Steps: 100
+Evaluation Episode 3: Return: 95.10000000000001, Steps: 50
+Evaluation Episode 4: Return: 91.79999999999998, Steps: 83
+Evaluation Episode 5: Return: 90.60000000000005, Steps: 95
+Average Return over 5 episodes: 91.86000000000001
+Average Episode Length: 82.4
+Model saved at episode 470 with mean episodic reward: 94.50003051757812
+
+-------------------------------------------
+
+Training episode 471
+Episodic Return: 91.19999694824219
+Episode Length: 88
+
+Value Loss: 24.68907356262207
+Policy Loss: 4.462798595428467
+Old Approx KL: 0.25795620679855347
+Approx KL: 0.12943099439144135
+Clip Fraction: 0.27277779258373713
+Explained Variance: -0.10442924499511719
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 472
+Episodic Return: 91.09999084472656
+Episode Length: 89
+
+Value Loss: 12.272289276123047
+Policy Loss: -2.5101113319396973
+Old Approx KL: 0.053509533405303955
+Approx KL: 0.015831874683499336
+Clip Fraction: 0.14157408074372343
+Explained Variance: -0.0387040376663208
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 473
+Episodic Return: 88.99999237060547
+Episode Length: 110
+
+Value Loss: 8.773093223571777
+Policy Loss: 1.1816987991333008
+Old Approx KL: 0.11341729015111923
+Approx KL: 0.04611092433333397
+Clip Fraction: 0.15638138927720688
+Explained Variance: -0.05131638050079346
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 474
+Episodic Return: 89.80004119873047
+Episode Length: 102
+
+Value Loss: 33.41286087036133
+Policy Loss: -6.8846755027771
+Old Approx KL: -0.10928472131490707
+Approx KL: 0.07260991632938385
+Clip Fraction: 0.13202615009219038
+Explained Variance: -0.0077332258224487305
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 475
+Episodic Return: 89.9000473022461
+Episode Length: 101
+
+Value Loss: 20.015336990356445
+Policy Loss: 0.6287010312080383
+Old Approx KL: 0.14622044563293457
+Approx KL: 0.14194634556770325
+Clip Fraction: 0.16764706802353554
+Explained Variance: 0.0031881332397460938
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 476
+Episodic Return: 87.80001068115234
+Episode Length: 122
+
+Value Loss: 5.431389808654785
+Policy Loss: -1.2884416580200195
+Old Approx KL: -0.0077211931347846985
+Approx KL: 0.026218373328447342
+Clip Fraction: 0.10542006009235615
+Explained Variance: -0.06521201133728027
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 477
+Episodic Return: 78.4884262084961
+Episode Length: 124
+
+Value Loss: 80.12521362304688
+Policy Loss: 7.310041904449463
+Old Approx KL: 0.7606727480888367
+Approx KL: 0.36180558800697327
+Clip Fraction: 0.42605822307190727
+Explained Variance: -0.01590549945831299
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 478
+Episodic Return: 91.20002746582031
+Episode Length: 88
+
+Value Loss: 32.246864318847656
+Policy Loss: -8.572792053222656
+Old Approx KL: -0.13680806756019592
+Approx KL: 0.09418649971485138
+Clip Fraction: 0.14629630429877175
+Explained Variance: -0.015847206115722656
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 479
+Episodic Return: 79.35525512695312
+Episode Length: 124
+
+Value Loss: 95.9840087890625
+Policy Loss: 10.322198867797852
+Old Approx KL: 0.3513391613960266
+Approx KL: 0.0959043875336647
+Clip Fraction: 0.3496031912841967
+Explained Variance: -0.0038306713104248047
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 480
+Episodic Return: 94.0
+Episode Length: 60
+
+Value Loss: 79.59841918945312
+Policy Loss: -12.004883766174316
+Old Approx KL: -0.10016001760959625
+Approx KL: 0.056036122143268585
+Clip Fraction: 0.13972222994392117
+Explained Variance: -0.029128313064575195
+
+-------------------------------------------
+
+Evaluating the agent at episode 480...
+Evaluation Episode 1: Return: -5.469870875179339, Steps: 125
+Evaluation Episode 2: Return: 92.30000000000011, Steps: 78
+Evaluation Episode 3: Return: 67.64814814814851, Steps: 125
+Evaluation Episode 4: Return: 94.3, Steps: 58
+Evaluation Episode 5: Return: 35.72190611664293, Steps: 125
+Average Return over 5 episodes: 56.90003667792244
+Average Episode Length: 102.2
+Model saved at episode 480 with mean episodic reward: 94.0
+
+-------------------------------------------
+
+Training episode 481
+Episodic Return: 73.938232421875
+Episode Length: 124
+
+Value Loss: 53.8437385559082
+Policy Loss: 9.091514587402344
+Old Approx KL: 0.18992693722248077
+Approx KL: 0.09829910099506378
+Clip Fraction: 0.18095239050804623
+Explained Variance: -0.06151711940765381
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 482
+Episodic Return: 93.20002746582031
+Episode Length: 68
+
+Value Loss: 124.3132553100586
+Policy Loss: -16.69527244567871
+Old Approx KL: -0.06722979992628098
+Approx KL: 0.08163779973983765
+Clip Fraction: 0.16038648190273755
+Explained Variance: 0.0017838478088378906
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 483
+Episodic Return: 92.16053771972656
+Episode Length: 77
+
+Value Loss: 12.46889877319336
+Policy Loss: 1.9192848205566406
+Old Approx KL: 0.14184518158435822
+Approx KL: 0.05201101303100586
+Clip Fraction: 0.09700855245001805
+Explained Variance: -0.20179402828216553
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 484
+Episodic Return: 92.00000762939453
+Episode Length: 80
+
+Value Loss: 15.556884765625
+Policy Loss: 0.553137481212616
+Old Approx KL: 0.07245039194822311
+Approx KL: 0.04573298618197441
+Clip Fraction: 0.1211934220045805
+Explained Variance: -0.0305403470993042
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 485
+Episodic Return: 93.09999084472656
+Episode Length: 69
+
+Value Loss: 46.39815139770508
+Policy Loss: 6.589759349822998
+Old Approx KL: 0.24142272770404816
+Approx KL: 0.08702659606933594
+Clip Fraction: 0.1770531486827826
+Explained Variance: 0.00025177001953125
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 486
+Episodic Return: 91.69999694824219
+Episode Length: 83
+
+Value Loss: 31.899988174438477
+Policy Loss: -4.541853904724121
+Old Approx KL: -0.04633913189172745
+Approx KL: 0.04226917773485184
+Clip Fraction: 0.12480159372179991
+Explained Variance: -0.030818700790405273
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 487
+Episodic Return: 94.0000228881836
+Episode Length: 60
+
+Value Loss: 18.075407028198242
+Policy Loss: -4.757178783416748
+Old Approx KL: -0.08348503708839417
+Approx KL: 0.03802100196480751
+Clip Fraction: 0.09444444937010606
+Explained Variance: -0.0008962154388427734
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 488
+Episodic Return: 94.19998931884766
+Episode Length: 58
+
+Value Loss: 20.297849655151367
+Policy Loss: 2.799866199493408
+Old Approx KL: 0.21342936158180237
+Approx KL: 0.082009457051754
+Clip Fraction: 0.14694445148731272
+Explained Variance: -0.02554309368133545
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 489
+Episodic Return: 93.30000305175781
+Episode Length: 67
+
+Value Loss: 26.6887149810791
+Policy Loss: -6.328176975250244
+Old Approx KL: 0.051651548594236374
+Approx KL: 0.12406318634748459
+Clip Fraction: 0.14371981361098046
+Explained Variance: 0.021670222282409668
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 490
+Episodic Return: 92.59999084472656
+Episode Length: 74
+
+Value Loss: 29.051557540893555
+Policy Loss: 3.8953607082366943
+Old Approx KL: 0.35275745391845703
+Approx KL: 0.18009667098522186
+Clip Fraction: 0.20977778896689414
+Explained Variance: 0.03232842683792114
+
+-------------------------------------------
+
+Evaluating the agent at episode 490...
+Evaluation Episode 1: Return: 3.4590043923865483, Steps: 125
+Evaluation Episode 2: Return: 91.39999999999995, Steps: 87
+Evaluation Episode 3: Return: 18.855932203389692, Steps: 125
+Evaluation Episode 4: Return: 31.742424242424168, Steps: 125
+Evaluation Episode 5: Return: 95.80000000000001, Steps: 43
+Average Return over 5 episodes: 48.251472167640074
+Average Episode Length: 101.0
+
+-------------------------------------------
+
+Training episode 491
+Episodic Return: 32.29169464111328
+Episode Length: 124
+
+Value Loss: 97.28020477294922
+Policy Loss: 11.3151273727417
+Old Approx KL: 0.37928956747055054
+Approx KL: 0.21304979920387268
+Clip Fraction: 0.26878308311163907
+Explained Variance: -0.0725022554397583
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 492
+Episodic Return: 57.14027786254883
+Episode Length: 124
+
+Value Loss: 12.056009292602539
+Policy Loss: -2.706345319747925
+Old Approx KL: 0.022166704759001732
+Approx KL: 0.024679068475961685
+Clip Fraction: 0.0808201100795515
+Explained Variance: -0.029239177703857422
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 493
+Episodic Return: 43.61511993408203
+Episode Length: 124
+
+Value Loss: 11.302248001098633
+Policy Loss: 3.2775135040283203
+Old Approx KL: 0.21201634407043457
+Approx KL: 0.07390151917934418
+Clip Fraction: 0.2153439266932389
+Explained Variance: 0.004663944244384766
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 494
+Episodic Return: 62.821006774902344
+Episode Length: 124
+
+Value Loss: 21.486448287963867
+Policy Loss: -6.497627258300781
+Old Approx KL: -0.13928470015525818
+Approx KL: 0.037788961082696915
+Clip Fraction: 0.11375661943817422
+Explained Variance: -0.01314246654510498
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 495
+Episodic Return: 91.00000762939453
+Episode Length: 90
+
+Value Loss: 8.543018341064453
+Policy Loss: -2.678136110305786
+Old Approx KL: -0.04862191900610924
+Approx KL: 0.03252150118350983
+Clip Fraction: 0.1096296351402998
+Explained Variance: -0.04824209213256836
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 496
+Episodic Return: 91.89999389648438
+Episode Length: 81
+
+Value Loss: 16.621196746826172
+Policy Loss: 2.7229080200195312
+Old Approx KL: 0.09420458972454071
+Approx KL: 0.07405165582895279
+Clip Fraction: 0.20205762315495515
+Explained Variance: -0.06719326972961426
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 497
+Episodic Return: 90.90000915527344
+Episode Length: 91
+
+Value Loss: 17.795652389526367
+Policy Loss: -2.2367894649505615
+Old Approx KL: 0.12454211711883545
+Approx KL: 0.06490190327167511
+Clip Fraction: 0.11577061543701797
+Explained Variance: 0.002858877182006836
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 498
+Episodic Return: 91.0000228881836
+Episode Length: 90
+
+Value Loss: 8.733380317687988
+Policy Loss: 2.7354114055633545
+Old Approx KL: 0.11492965370416641
+Approx KL: 0.04969114065170288
+Clip Fraction: 0.14314815582086643
+Explained Variance: -0.034523844718933105
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 499
+Episodic Return: 91.1999740600586
+Episode Length: 88
+
+Value Loss: 34.78415298461914
+Policy Loss: -7.213227272033691
+Old Approx KL: -0.1305989772081375
+Approx KL: 0.04861174896359444
+Clip Fraction: 0.14240741450339556
+Explained Variance: -0.007406115531921387
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+Training episode 500
+Episodic Return: 93.40000915527344
+Episode Length: 66
+
+Value Loss: 11.523396492004395
+Policy Loss: 0.008739027194678783
+Old Approx KL: 0.14144490659236908
+Approx KL: 0.05954792723059654
+Clip Fraction: 0.09772727810636614
+Explained Variance: -0.017098307609558105
+
+-------------------------------------------
+
+Evaluating the agent at episode 500...
+Evaluation Episode 1: Return: 90.60000000000005, Steps: 95
+Evaluation Episode 2: Return: 93.30000000000004, Steps: 68
+Evaluation Episode 3: Return: 89.79999999999998, Steps: 103
+Evaluation Episode 4: Return: 92.30000000000005, Steps: 78
+Evaluation Episode 5: Return: 91.19999999999997, Steps: 89
+Average Return over 5 episodes: 91.44000000000003
+Average Episode Length: 86.6
+Model saved at episode 500 with mean episodic reward: 93.40000915527344
+
+-------------------------------------------
+
+Model saved at episode 500 with total reward: [93.40001 93.40001 93.40001 93.40001 93.40001 93.40001 93.40001 93.40001
+ 93.40001 93.40001 93.40001 93.40001 93.40001 93.40001 93.40001 93.40001
+ 93.40001 93.40001 93.40001 93.40001]

@@ -1,0 +1,103 @@
+[I 2024-11-23 10:14:13,782] A new study created in RDB with name: pistonball_hyperparam_search
+/home/hpc/users/sonja.gievska/pistonball/optuna_extended.py:164: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at ../aten/src/ATen/native/ReduceOps.cpp:1823.)
+  advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
+[I 2024-11-23 10:40:47,673] Trial 0 finished with value: 1816.0000331401825 and parameters: {'ent_coef': 0.004213557037881118, 'vf_coef': 5.3958248291427655e-05, 'clip_coef': 0.20319174848871713, 'gamma': 0.9633791981288916, 'batch_size': 17, 'lr': 5.49278428630246e-05}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 11:03:17,499] Trial 1 finished with value: -213.63636016845703 and parameters: {'ent_coef': 0.018625421006660415, 'vf_coef': 0.0006231803070592627, 'clip_coef': 0.21494775847793568, 'gamma': 0.986508785833719, 'batch_size': 38, 'lr': 0.0005561253212007522}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 11:30:30,441] Trial 2 finished with value: -325.03607177734375 and parameters: {'ent_coef': 0.00022394469491736696, 'vf_coef': 0.0009093294633010215, 'clip_coef': 0.33900051783822227, 'gamma': 0.9694970393877338, 'batch_size': 23, 'lr': 0.00017668873358480945}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 12:01:24,833] Trial 3 finished with value: -73.77623319625854 and parameters: {'ent_coef': 0.012135726282362227, 'vf_coef': 1.398217418720097e-06, 'clip_coef': 0.10687378947417493, 'gamma': 0.9706106088776522, 'batch_size': 17, 'lr': 1.192404204570854e-05}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 12:23:32,415] Trial 4 finished with value: 181.3725311756134 and parameters: {'ent_coef': 0.00027945225578837, 'vf_coef': 8.138131384641164e-05, 'clip_coef': 0.23040958903713568, 'gamma': 0.9819131576719687, 'batch_size': 33, 'lr': 0.000576581543241128}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 12:25:29,333] Trial 5 pruned. 
+[I 2024-11-23 12:25:34,170] Trial 6 pruned. 
+[I 2024-11-23 12:25:39,096] Trial 7 pruned. 
+[I 2024-11-23 12:25:48,519] Trial 8 pruned. 
+[I 2024-11-23 12:25:54,445] Trial 9 pruned. 
+[I 2024-11-23 12:25:59,781] Trial 10 pruned. 
+[I 2024-11-23 12:26:08,780] Trial 11 pruned. 
+[I 2024-11-23 12:49:34,697] Trial 12 finished with value: -377.2189407348633 and parameters: {'ent_coef': 0.0002428188502920193, 'vf_coef': 0.0027356993154016612, 'clip_coef': 0.38678336151858633, 'gamma': 0.9624748710596561, 'batch_size': 25, 'lr': 0.0009347246087205638}. Best is trial 0 with value: 1816.0000331401825.
+[I 2024-11-23 12:49:39,915] Trial 13 pruned. 
+[I 2024-11-23 12:49:44,787] Trial 14 pruned. 
+[I 2024-11-23 12:49:56,060] Trial 15 pruned. 
+[I 2024-11-23 12:50:01,645] Trial 16 pruned. 
+[I 2024-11-23 13:07:40,112] Trial 17 finished with value: 1853.9999800920486 and parameters: {'ent_coef': 0.0020837227789178682, 'vf_coef': 1.3151729225373344e-06, 'clip_coef': 0.245692348773601, 'gamma': 0.9679635957415537, 'batch_size': 64, 'lr': 0.000212389660261792}. Best is trial 17 with value: 1853.9999800920486.
+[I 2024-11-23 13:07:44,883] Trial 18 pruned. 
+[I 2024-11-23 13:24:18,148] Trial 19 finished with value: 1825.9999828338623 and parameters: {'ent_coef': 0.07971348733047211, 'vf_coef': 2.9989054995235997e-06, 'clip_coef': 0.3486589134594247, 'gamma': 0.9746543947667025, 'batch_size': 64, 'lr': 9.701405081034248e-05}. Best is trial 17 with value: 1853.9999800920486.
+[I 2024-11-23 13:43:25,054] Trial 20 finished with value: 1792.0000109672546 and parameters: {'ent_coef': 0.06611653761543983, 'vf_coef': 3.745073817505239e-06, 'clip_coef': 0.39584778761070327, 'gamma': 0.9763294679436556, 'batch_size': 64, 'lr': 0.00010211515943668806}. Best is trial 17 with value: 1853.9999800920486.
+[I 2024-11-23 13:43:29,699] Trial 21 pruned. 
+[I 2024-11-23 13:57:27,297] Trial 22 finished with value: 1916.0000476837158 and parameters: {'ent_coef': 0.02906135955107584, 'vf_coef': 1.3225430652766235e-05, 'clip_coef': 0.3156789623360123, 'gamma': 0.974252150430861, 'batch_size': 53, 'lr': 4.223466710023446e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 13:57:32,013] Trial 23 pruned. 
+[I 2024-11-23 13:57:36,676] Trial 24 pruned. 
+[I 2024-11-23 13:59:59,598] Trial 25 pruned. 
+[I 2024-11-23 14:00:04,446] Trial 26 pruned. 
+[I 2024-11-23 14:23:52,735] Trial 27 finished with value: -16.763853907585144 and parameters: {'ent_coef': 0.016459213111588537, 'vf_coef': 1.005356887122772e-06, 'clip_coef': 0.28846244913511915, 'gamma': 0.9682399485094966, 'batch_size': 43, 'lr': 8.189835400232823e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 14:23:57,490] Trial 28 pruned. 
+[I 2024-11-23 14:25:28,349] Trial 29 pruned. 
+[I 2024-11-23 14:25:33,381] Trial 30 pruned. 
+[I 2024-11-23 14:25:38,288] Trial 31 pruned. 
+[I 2024-11-23 14:25:44,084] Trial 32 pruned. 
+[I 2024-11-23 14:25:48,794] Trial 33 pruned. 
+[I 2024-11-23 14:25:53,818] Trial 34 pruned. 
+[I 2024-11-23 14:39:26,940] Trial 35 finished with value: 1765.999959230423 and parameters: {'ent_coef': 0.041421113933874494, 'vf_coef': 2.0620830334594577e-06, 'clip_coef': 0.2465843735179748, 'gamma': 0.9607791934076062, 'batch_size': 64, 'lr': 2.5954335525410135e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 14:39:31,913] Trial 36 pruned. 
+[I 2024-11-23 14:39:36,676] Trial 37 pruned. 
+[I 2024-11-23 14:43:34,474] Trial 38 pruned. 
+[I 2024-11-23 14:43:39,356] Trial 39 pruned. 
+[I 2024-11-23 14:43:44,803] Trial 40 pruned. 
+[I 2024-11-23 15:02:55,503] Trial 41 finished with value: 1877.9999742507935 and parameters: {'ent_coef': 0.0369377662716101, 'vf_coef': 4.938500438153102e-06, 'clip_coef': 0.39949127207736723, 'gamma': 0.9762945308376493, 'batch_size': 64, 'lr': 0.00011970929774048365}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 15:03:00,148] Trial 42 pruned. 
+[I 2024-11-23 15:03:04,926] Trial 43 pruned. 
+[I 2024-11-23 15:03:09,599] Trial 44 pruned. 
+[I 2024-11-23 15:03:14,222] Trial 45 pruned. 
+[I 2024-11-23 15:05:35,940] Trial 46 pruned. 
+[I 2024-11-23 15:05:41,165] Trial 47 pruned. 
+[I 2024-11-23 15:05:46,109] Trial 48 pruned. 
+[I 2024-11-23 15:05:50,898] Trial 49 pruned. 
+[I 2024-11-23 15:05:55,826] Trial 50 pruned. 
+[I 2024-11-23 15:06:00,571] Trial 51 pruned. 
+[I 2024-11-23 15:08:34,303] Trial 52 pruned. 
+[I 2024-11-23 15:08:39,057] Trial 53 pruned. 
+[I 2024-11-23 15:11:47,047] Trial 54 pruned. 
+[I 2024-11-23 15:11:51,785] Trial 55 pruned. 
+[I 2024-11-23 15:29:58,147] Trial 56 finished with value: -346.2099151611328 and parameters: {'ent_coef': 0.02264212070646164, 'vf_coef': 6.254044006249399e-06, 'clip_coef': 0.3735138057381386, 'gamma': 0.974263546186309, 'batch_size': 62, 'lr': 0.0002064452221629682}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 15:30:03,009] Trial 57 pruned. 
+[I 2024-11-23 15:30:08,120] Trial 58 pruned. 
+[I 2024-11-23 15:33:03,704] Trial 59 pruned. 
+[I 2024-11-23 15:33:08,710] Trial 60 pruned. 
+[I 2024-11-23 15:52:34,464] Trial 61 finished with value: 1883.9999704360962 and parameters: {'ent_coef': 0.0406707543938708, 'vf_coef': 1.790276333935872e-06, 'clip_coef': 0.2502560894431077, 'gamma': 0.960442009454315, 'batch_size': 64, 'lr': 1.703608499216491e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 15:52:39,149] Trial 62 pruned. 
+[I 2024-11-23 15:52:43,839] Trial 63 pruned. 
+[I 2024-11-23 15:52:48,808] Trial 64 pruned. 
+[I 2024-11-23 15:52:53,563] Trial 65 pruned. 
+[I 2024-11-23 15:52:58,492] Trial 66 pruned. 
+[I 2024-11-23 15:53:03,387] Trial 67 pruned. 
+[I 2024-11-23 15:53:09,199] Trial 68 pruned. 
+[I 2024-11-23 15:53:14,406] Trial 69 pruned. 
+[I 2024-11-23 15:53:19,161] Trial 70 pruned. 
+[I 2024-11-23 15:53:23,816] Trial 71 pruned. 
+[I 2024-11-23 16:06:48,425] Trial 72 finished with value: 1916.0000286102295 and parameters: {'ent_coef': 0.026915824492351775, 'vf_coef': 5.225130436722236e-06, 'clip_coef': 0.2613779892637743, 'gamma': 0.9620563223690046, 'batch_size': 58, 'lr': 3.320041682007545e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 16:06:53,121] Trial 73 pruned. 
+[I 2024-11-23 16:06:57,815] Trial 74 pruned. 
+[I 2024-11-23 16:07:03,267] Trial 75 pruned. 
+[I 2024-11-23 16:07:07,975] Trial 76 pruned. 
+[I 2024-11-23 16:27:22,278] Trial 77 finished with value: 1617.6056249141693 and parameters: {'ent_coef': 0.021536914756639727, 'vf_coef': 0.00024840148789654005, 'clip_coef': 0.38999978954414044, 'gamma': 0.9727404738925095, 'batch_size': 59, 'lr': 4.028298239858716e-05}. Best is trial 22 with value: 1916.0000476837158.
+[I 2024-11-23 16:27:26,971] Trial 78 pruned. 
+[I 2024-11-23 16:27:31,594] Trial 79 pruned. 
+[I 2024-11-23 16:27:36,170] Trial 80 pruned. 
+[I 2024-11-23 16:27:40,691] Trial 81 pruned. 
+[I 2024-11-23 16:27:45,215] Trial 82 pruned. 
+[I 2024-11-23 16:27:49,907] Trial 83 pruned. 
+[I 2024-11-23 16:27:54,761] Trial 84 pruned. 
+[I 2024-11-23 16:28:07,738] Trial 85 pruned. 
+[I 2024-11-23 16:28:12,753] Trial 86 pruned. 
+[I 2024-11-23 16:28:17,483] Trial 87 pruned. 
+[I 2024-11-23 16:28:22,659] Trial 88 pruned. 
+[I 2024-11-23 16:28:27,697] Trial 89 pruned. 
+[I 2024-11-23 16:28:43,625] Trial 90 pruned. 
+[I 2024-11-23 16:31:03,206] Trial 91 pruned. 
+[I 2024-11-23 16:48:03,624] Trial 92 finished with value: 1945.999998807907 and parameters: {'ent_coef': 0.03430934688621916, 'vf_coef': 0.00010635186909030962, 'clip_coef': 0.3848463970510941, 'gamma': 0.9721757249192812, 'batch_size': 60, 'lr': 2.6575473238647402e-05}. Best is trial 92 with value: 1945.999998807907.
+[I 2024-11-23 16:48:08,294] Trial 93 pruned. 
+[I 2024-11-23 16:48:12,907] Trial 94 pruned. 
+[I 2024-11-23 16:48:17,487] Trial 95 pruned. 
+[I 2024-11-23 16:48:22,071] Trial 96 pruned. 
+[I 2024-11-23 16:48:26,736] Trial 97 pruned. 
+[I 2024-11-23 16:48:39,606] Trial 98 pruned. 
+[I 2024-11-23 17:00:05,400] Trial 99 finished with value: 1931.9999632835388 and parameters: {'ent_coef': 0.04896579742867057, 'vf_coef': 1.0502068936181782e-06, 'clip_coef': 0.3226456198930774, 'gamma': 0.9697382606677488, 'batch_size': 57, 'lr': 7.655749823363362e-05}. Best is trial 92 with value: 1945.999998807907.
